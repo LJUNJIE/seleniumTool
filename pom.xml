@@ -5,8 +5,8 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>UIAutoTest</groupId>
-    <artifactId>UIAutoTest</artifactId>
+    <groupId>seleniumTool</groupId>
+    <artifactId>seleniumTool</artifactId>
     <version>1.0-SNAPSHOT</version>
 
 
