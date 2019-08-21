@@ -1,0 +1,1647 @@
+[2019-08-08 14:56:59,621][INFO] - =========脚本启动=========
+[2019-08-08 14:56:59,623][INFO] - 开始执行脚本：1.xls
+[2019-08-08 14:57:00,311][ERROR] - 连接远程机器失败:no protocol: UIAutoTest
+java.net.MalformedURLException: no protocol: UIAutoTest
+	at java.net.URL.<init>(URL.java:593)
+	at java.net.URL.<init>(URL.java:490)
+	at java.net.URL.<init>(URL.java:439)
+	at common.RemoteOpenBrowser.openBrowser(RemoteOpenBrowser.java:23)
+	at common.RemoteElementAction.run(RemoteElementAction.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+[2019-08-08 14:57:00,609][ERROR] - 第null步发生异常
+[2019-08-08 14:57:00,609][ERROR] - 
+java.lang.NullPointerException
+	at java.util.Objects.requireNonNull(Objects.java:203)
+	at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:106)
+	at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:45)
+	at common.RemoteElementAction.run(RemoteElementAction.java:115)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+[2019-08-08 14:57:42,762][INFO] - =========脚本启动=========
+[2019-08-08 14:57:42,763][INFO] - 开始执行脚本：1.xls
+[2019-08-08 14:57:43,106][ERROR] - 连接远程机器失败:no protocol: UIAutoTest
+java.net.MalformedURLException: no protocol: UIAutoTest
+	at java.net.URL.<init>(URL.java:593)
+	at java.net.URL.<init>(URL.java:490)
+	at java.net.URL.<init>(URL.java:439)
+	at common.RemoteOpenBrowser.openBrowser(RemoteOpenBrowser.java:24)
+	at common.RemoteElementAction.run(RemoteElementAction.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+[2019-08-08 14:57:43,219][ERROR] - 第null步发生异常
+[2019-08-08 14:57:43,219][ERROR] - 
+java.lang.NullPointerException
+	at java.util.Objects.requireNonNull(Objects.java:203)
+	at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:106)
+	at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:45)
+	at common.RemoteElementAction.run(RemoteElementAction.java:115)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+[2019-08-08 15:09:53,412][INFO] - =========脚本启动=========
+[2019-08-08 15:09:53,412][INFO] - 开始执行脚本：1.xls
+[2019-08-08 15:09:53,413][INFO] - =========脚本启动=========
+[2019-08-08 15:09:53,414][INFO] - 开始执行脚本：1.xls
+[2019-08-08 15:09:58,317][ERROR] - unknown error: failed to change window state to maximized, current state is normal
+  (Session info: chrome=75.0.3770.142)
+  (Driver info: chromedriver=2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'yaoshideMacBook-Pro.local', ip: '172.16.0.75', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565386 (45a059dc425e08..., userDataDir: /var/folders/23/l441s28j7gj...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 75.0.3770.142, webStorageEnabled: true, webdriver.remote.sessionid: 0a6a80ba7e478418480eaf19c9e...}
+Session ID: 0a6a80ba7e478418480eaf19c9e47817
+org.openqa.selenium.WebDriverException: unknown error: failed to change window state to maximized, current state is normal
+  (Session info: chrome=75.0.3770.142)
+  (Driver info: chromedriver=2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'yaoshideMacBook-Pro.local', ip: '172.16.0.75', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565386 (45a059dc425e08..., userDataDir: /var/folders/23/l441s28j7gj...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 75.0.3770.142, webStorageEnabled: true, webdriver.remote.sessionid: 0a6a80ba7e478418480eaf19c9e...}
+Session ID: 0a6a80ba7e478418480eaf19c9e47817
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
+	at common.RemoteOpenBrowser.openBrowser(RemoteOpenBrowser.java:25)
+	at common.RemoteElementAction.run(RemoteElementAction.java:110)
+	at java.lang.Thread.run(Thread.java:748)
+[2019-08-08 15:09:58,317][ERROR] - unknown error: failed to change window state to maximized, current state is normal
+  (Session info: chrome=75.0.3770.142)
+  (Driver info: chromedriver=2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'yaoshideMacBook-Pro.local', ip: '172.16.0.75', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565386 (45a059dc425e08..., userDataDir: /var/folders/23/l441s28j7gj...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 75.0.3770.142, webStorageEnabled: true, webdriver.remote.sessionid: a78b4114dce3bc5f323d5149ddc...}
+Session ID: a78b4114dce3bc5f323d5149ddc8c5ff
+org.openqa.selenium.WebDriverException: unknown error: failed to change window state to maximized, current state is normal
+  (Session info: chrome=75.0.3770.142)
+  (Driver info: chromedriver=2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'yaoshideMacBook-Pro.local', ip: '172.16.0.75', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565386 (45a059dc425e08..., userDataDir: /var/folders/23/l441s28j7gj...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 75.0.3770.142, webStorageEnabled: true, webdriver.remote.sessionid: a78b4114dce3bc5f323d5149ddc...}
+Session ID: a78b4114dce3bc5f323d5149ddc8c5ff
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
+	at common.RemoteOpenBrowser.openBrowser(RemoteOpenBrowser.java:25)
+	at common.RemoteElementAction.run(RemoteElementAction.java:110)
+	at java.lang.Thread.run(Thread.java:748)
+[2019-08-08 15:09:59,317][INFO] - 1步开始
+[2019-08-08 15:09:59,381][INFO] - 1步开始
+[2019-08-08 15:09:59,996][INFO] - 2步开始
+[2019-08-08 15:10:00,073][INFO] - 2步开始
+[2019-08-08 15:10:30,104][ERROR] - 元素(ID)'password1'找不到
+[2019-08-08 15:10:30,165][ERROR] - 第2步发生异常
+[2019-08-08 15:10:30,165][ERROR] - 
+java.lang.NullPointerException
+	at common.RemoteElementAction.run(RemoteElementAction.java:188)
+	at java.lang.Thread.run(Thread.java:748)
+[2019-08-08 15:10:30,165][INFO] - 执行报错，关闭浏览器
+[2019-08-08 15:10:30,198][ERROR] - 元素(ID)'password1'找不到
+[2019-08-08 15:10:30,198][ERROR] - 第2步发生异常
+[2019-08-08 15:10:30,198][ERROR] - 
+java.lang.NullPointerException
+	at common.RemoteElementAction.run(RemoteElementAction.java:188)
+	at java.lang.Thread.run(Thread.java:748)
+[2019-08-08 15:10:30,198][INFO] - 执行报错，关闭浏览器
+[2019-08-08 15:10:33,007][ERROR] - unknown error: failed to change window state to maximized, current state is normal
+  (Session info: chrome=75.0.3770.142)
+  (Driver info: chromedriver=2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'yaoshideMacBook-Pro.local', ip: '172.16.0.75', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565386 (45a059dc425e08..., userDataDir: /var/folders/23/l441s28j7gj...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 75.0.3770.142, webStorageEnabled: true, webdriver.remote.sessionid: 6a023c2c34000e2511a6b189045...}
+Session ID: 6a023c2c34000e2511a6b189045d3f83
+org.openqa.selenium.WebDriverException: unknown error: failed to change window state to maximized, current state is normal
+  (Session info: chrome=75.0.3770.142)
+  (Driver info: chromedriver=2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'yaoshideMacBook-Pro.local', ip: '172.16.0.75', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565386 (45a059dc425e08..., userDataDir: /var/folders/23/l441s28j7gj...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 75.0.3770.142, webStorageEnabled: true, webdriver.remote.sessionid: 6a023c2c34000e2511a6b189045...}
+Session ID: 6a023c2c34000e2511a6b189045d3f83
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
+	at common.RemoteOpenBrowser.openBrowser(RemoteOpenBrowser.java:25)
+	at common.RemoteElementAction.run(RemoteElementAction.java:110)
+	at java.lang.Thread.run(Thread.java:748)
+[2019-08-08 15:10:33,098][ERROR] - unknown error: failed to change window state to maximized, current state is normal
+  (Session info: chrome=75.0.3770.142)
+  (Driver info: chromedriver=2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'yaoshideMacBook-Pro.local', ip: '172.16.0.75', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565386 (45a059dc425e08..., userDataDir: /var/folders/23/l441s28j7gj...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 75.0.3770.142, webStorageEnabled: true, webdriver.remote.sessionid: 4db5c0bfb3bb5cfbf74480e7c4f...}
+Session ID: 4db5c0bfb3bb5cfbf74480e7c4fab93e
+org.openqa.selenium.WebDriverException: unknown error: failed to change window state to maximized, current state is normal
+  (Session info: chrome=75.0.3770.142)
+  (Driver info: chromedriver=2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'yaoshideMacBook-Pro.local', ip: '172.16.0.75', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565386 (45a059dc425e08..., userDataDir: /var/folders/23/l441s28j7gj...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 75.0.3770.142, webStorageEnabled: true, webdriver.remote.sessionid: 4db5c0bfb3bb5cfbf74480e7c4f...}
+Session ID: 4db5c0bfb3bb5cfbf74480e7c4fab93e
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
+	at common.RemoteOpenBrowser.openBrowser(RemoteOpenBrowser.java:25)
+	at common.RemoteElementAction.run(RemoteElementAction.java:110)
+	at java.lang.Thread.run(Thread.java:748)
+[2019-08-08 15:10:34,711][INFO] - 1步开始
+[2019-08-08 15:10:34,966][INFO] - 1步开始
+[2019-08-08 15:10:35,415][INFO] - 2步开始
+[2019-08-08 15:10:35,652][INFO] - 2步开始
+[2019-08-08 15:10:36,150][INFO] - 3步开始
+[2019-08-08 15:10:36,326][INFO] - 3步开始
+[2019-08-08 15:10:38,676][INFO] - 4步开始
+[2019-08-08 15:10:41,121][ERROR] - 第3步发生异常
+[2019-08-08 15:10:41,124][ERROR] - stale element reference: element is not attached to the page document
+  (Session info: chrome=75.0.3770.142)
+  (Driver info: chromedriver=2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'yaoshideMacBook-Pro.local', ip: '172.16.0.75', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565386 (45a059dc425e08..., userDataDir: /var/folders/23/l441s28j7gj...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 75.0.3770.142, webStorageEnabled: true, webdriver.remote.sessionid: 4db5c0bfb3bb5cfbf74480e7c4f...}
+Session ID: 4db5c0bfb3bb5cfbf74480e7c4fab93e
+org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=75.0.3770.142)
+  (Driver info: chromedriver=2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'yaoshideMacBook-Pro.local', ip: '172.16.0.75', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565386 (45a059dc425e08..., userDataDir: /var/folders/23/l441s28j7gj...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 75.0.3770.142, webStorageEnabled: true, webdriver.remote.sessionid: 4db5c0bfb3bb5cfbf74480e7c4f...}
+Session ID: 4db5c0bfb3bb5cfbf74480e7c4fab93e
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteExecuteMethod.execute(RemoteExecuteMethod.java:35)
+	at org.openqa.selenium.remote.RemoteMouse.mouseMove(RemoteMouse.java:89)
+	at org.openqa.selenium.interactions.internal.MouseAction.moveToLocation(MouseAction.java:77)
+	at org.openqa.selenium.interactions.ClickAction.perform(ClickAction.java:38)
+	at org.openqa.selenium.interactions.CompositeAction.perform(CompositeAction.java:34)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:642)
+	at org.openqa.selenium.interactions.Actions.perform(Actions.java:595)
+	at common.RemoteElementAction.run(RemoteElementAction.java:193)
+	at java.lang.Thread.run(Thread.java:748)
+[2019-08-08 15:10:41,255][INFO] - 执行报错，关闭浏览器
+[2019-08-08 15:10:41,259][INFO] - 1.xls执行完成
+[2019-08-08 15:10:41,259][INFO] - =========脚本完成=========
+[2019-08-08 15:10:41,348][ERROR] - 元素(linkText)'大数据产品'找不到
+[2019-08-08 15:10:41,350][ERROR] - 第4步发生异常
+[2019-08-08 15:10:41,350][ERROR] - 
+java.lang.NullPointerException
+	at java.util.Objects.requireNonNull(Objects.java:203)
+	at org.openqa.selenium.interactions.PointerInput$Origin.fromElement(PointerInput.java:222)
+	at org.openqa.selenium.interactions.Actions.moveInTicks(Actions.java:416)
+	at org.openqa.selenium.interactions.Actions.click(Actions.java:322)
+	at common.RemoteElementAction.run(RemoteElementAction.java:193)
+	at java.lang.Thread.run(Thread.java:748)
+[2019-08-08 15:10:41,351][INFO] - 执行报错，关闭浏览器
+[2019-08-08 15:10:41,352][INFO] - 1.xls执行完成
+[2019-08-08 15:10:41,353][INFO] - =========脚本完成=========
+[2019-08-08 15:10:42,339][INFO] - 输出报告完成
+[2019-08-08 15:13:40,800][INFO] - =========脚本启动=========
+[2019-08-08 15:13:40,800][INFO] - =========脚本启动=========
+[2019-08-08 15:13:40,800][INFO] - 开始执行脚本：1.xls
+[2019-08-08 15:13:40,800][INFO] - 开始执行脚本：1.xls
+[2019-08-08 15:13:44,363][INFO] - 1步开始
+[2019-08-08 15:13:44,452][INFO] - 1步开始
+[2019-08-08 15:13:45,029][INFO] - 2步开始
+[2019-08-08 15:13:45,113][INFO] - 2步开始
+[2019-08-08 15:14:15,176][ERROR] - 元素(ID)'password1'找不到
+[2019-08-08 15:14:15,241][ERROR] - 第2步发生异常
+[2019-08-08 15:14:15,242][ERROR] - 
+java.lang.NullPointerException
+	at common.RemoteElementAction.run(RemoteElementAction.java:188)
+	at java.lang.Thread.run(Thread.java:748)
+[2019-08-08 15:14:15,247][INFO] - 执行报错，关闭浏览器
+[2019-08-08 15:14:15,275][ERROR] - 元素(ID)'password1'找不到
+[2019-08-08 15:14:15,275][ERROR] - 第2步发生异常
+[2019-08-08 15:14:15,275][ERROR] - 
+java.lang.NullPointerException
+	at common.RemoteElementAction.run(RemoteElementAction.java:188)
+	at java.lang.Thread.run(Thread.java:748)
+[2019-08-08 15:14:15,275][INFO] - 执行报错，关闭浏览器
+[2019-08-08 15:14:18,624][INFO] - 1步开始
+[2019-08-08 15:14:18,725][INFO] - 1步开始
+[2019-08-08 15:14:19,346][INFO] - 2步开始
+[2019-08-08 15:14:19,455][INFO] - 2步开始
+[2019-08-08 15:14:20,022][INFO] - 3步开始
+[2019-08-08 15:14:20,088][ERROR] - 第3步发生异常
+[2019-08-08 15:14:20,090][ERROR] - stale element reference: element is not attached to the page document
+  (Session info: chrome=75.0.3770.142)
+  (Driver info: chromedriver=2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'yaoshideMacBook-Pro.local', ip: '172.16.0.75', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565386 (45a059dc425e08..., userDataDir: /var/folders/23/l441s28j7gj...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 75.0.3770.142, webStorageEnabled: true, webdriver.remote.sessionid: 9206b518c6726451c29991dd7ff...}
+Session ID: 9206b518c6726451c29991dd7ff60950
+org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=75.0.3770.142)
+  (Driver info: chromedriver=2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'yaoshideMacBook-Pro.local', ip: '172.16.0.75', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565386 (45a059dc425e08..., userDataDir: /var/folders/23/l441s28j7gj...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 75.0.3770.142, webStorageEnabled: true, webdriver.remote.sessionid: 9206b518c6726451c29991dd7ff...}
+Session ID: 9206b518c6726451c29991dd7ff60950
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteExecuteMethod.execute(RemoteExecuteMethod.java:35)
+	at org.openqa.selenium.remote.RemoteMouse.mouseMove(RemoteMouse.java:89)
+	at org.openqa.selenium.interactions.internal.MouseAction.moveToLocation(MouseAction.java:77)
+	at org.openqa.selenium.interactions.ClickAction.perform(ClickAction.java:38)
+	at org.openqa.selenium.interactions.CompositeAction.perform(CompositeAction.java:34)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:642)
+	at org.openqa.selenium.interactions.Actions.perform(Actions.java:595)
+	at common.RemoteElementAction.run(RemoteElementAction.java:193)
+	at java.lang.Thread.run(Thread.java:748)
+[2019-08-08 15:14:20,153][INFO] - 3步开始
+[2019-08-08 15:14:20,209][INFO] - 执行报错，关闭浏览器
+[2019-08-08 15:14:20,217][INFO] - 1.xls执行完成
+[2019-08-08 15:14:20,218][INFO] - =========脚本完成=========
+[2019-08-08 15:14:20,330][ERROR] - 元素(ID)'loginSubmit'找不到
+[2019-08-08 15:14:20,330][ERROR] - 第3步发生异常
+[2019-08-08 15:14:20,330][ERROR] - 
+java.lang.NullPointerException
+	at java.util.Objects.requireNonNull(Objects.java:203)
+	at org.openqa.selenium.interactions.PointerInput$Origin.fromElement(PointerInput.java:222)
+	at org.openqa.selenium.interactions.Actions.moveInTicks(Actions.java:416)
+	at org.openqa.selenium.interactions.Actions.click(Actions.java:322)
+	at common.RemoteElementAction.run(RemoteElementAction.java:193)
+	at java.lang.Thread.run(Thread.java:748)
+[2019-08-08 15:14:20,331][INFO] - 执行报错，关闭浏览器
+[2019-08-08 15:14:20,333][INFO] - 1.xls执行完成
+[2019-08-08 15:14:20,334][INFO] - =========脚本完成=========
+[2019-08-08 15:14:20,894][INFO] - 输出报告完成
+[2019-08-08 15:31:05,960][INFO] - =========脚本启动=========
+[2019-08-08 15:31:05,961][INFO] - 开始执行脚本：1.xls
+[2019-08-08 15:31:05,981][INFO] - =========脚本启动=========
+[2019-08-08 15:31:05,981][INFO] - 开始执行脚本：1.xls
+[2019-08-08 15:31:09,737][INFO] - 1步开始
+[2019-08-08 15:31:09,858][INFO] - 1步开始
+[2019-08-08 15:31:10,417][INFO] - 2步开始
+[2019-08-08 15:31:10,513][INFO] - 2步开始
+[2019-08-08 15:31:40,623][ERROR] - 元素(ID)'password1'找不到
+[2019-08-08 15:31:40,704][ERROR] - 第2步发生异常
+[2019-08-08 15:31:40,706][ERROR] - 
+java.lang.NullPointerException
+	at common.RemoteElementAction.run(RemoteElementAction.java:188)
+	at java.lang.Thread.run(Thread.java:748)
+[2019-08-08 15:31:40,712][ERROR] - 元素(ID)'password1'找不到
+[2019-08-08 15:31:40,834][INFO] - 执行报错，关闭浏览器
+[2019-08-08 15:31:40,865][ERROR] - 第2步发生异常
+[2019-08-08 15:31:40,865][ERROR] - 
+java.lang.NullPointerException
+	at common.RemoteElementAction.run(RemoteElementAction.java:188)
+	at java.lang.Thread.run(Thread.java:748)
+[2019-08-08 15:31:40,865][INFO] - 执行报错，关闭浏览器
+[2019-08-08 15:31:45,669][INFO] - 1步开始
+[2019-08-08 15:31:45,695][INFO] - 1步开始
+[2019-08-08 15:31:46,370][INFO] - 2步开始
+[2019-08-08 15:31:46,371][INFO] - 2步开始
+[2019-08-08 15:31:47,034][INFO] - 3步开始
+[2019-08-08 15:31:47,109][ERROR] - 第3步发生异常
+[2019-08-08 15:31:47,109][ERROR] - stale element reference: element is not attached to the page document
+  (Session info: chrome=75.0.3770.142)
+  (Driver info: chromedriver=2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'yaoshideMacBook-Pro.local', ip: '172.16.0.75', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565386 (45a059dc425e08..., userDataDir: /var/folders/23/l441s28j7gj...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 75.0.3770.142, webStorageEnabled: true, webdriver.remote.sessionid: 2e8abbe105d864912dd3c9f4dfb...}
+Session ID: 2e8abbe105d864912dd3c9f4dfb688f0
+org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=75.0.3770.142)
+  (Driver info: chromedriver=2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'yaoshideMacBook-Pro.local', ip: '172.16.0.75', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565386 (45a059dc425e08..., userDataDir: /var/folders/23/l441s28j7gj...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 75.0.3770.142, webStorageEnabled: true, webdriver.remote.sessionid: 2e8abbe105d864912dd3c9f4dfb...}
+Session ID: 2e8abbe105d864912dd3c9f4dfb688f0
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteExecuteMethod.execute(RemoteExecuteMethod.java:35)
+	at org.openqa.selenium.remote.RemoteMouse.mouseMove(RemoteMouse.java:89)
+	at org.openqa.selenium.interactions.internal.MouseAction.moveToLocation(MouseAction.java:77)
+	at org.openqa.selenium.interactions.ClickAction.perform(ClickAction.java:38)
+	at org.openqa.selenium.interactions.CompositeAction.perform(CompositeAction.java:34)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:642)
+	at org.openqa.selenium.interactions.Actions.perform(Actions.java:595)
+	at common.RemoteElementAction.run(RemoteElementAction.java:193)
+	at java.lang.Thread.run(Thread.java:748)
+[2019-08-08 15:31:47,175][INFO] - 执行报错，关闭浏览器
+[2019-08-08 15:31:47,176][INFO] - 1.xls执行完成
+[2019-08-08 15:31:47,176][INFO] - =========脚本完成=========
+[2019-08-08 15:31:47,185][INFO] - 3步开始
+[2019-08-08 15:31:47,188][ERROR] - 元素(ID)'loginSubmit'找不到
+[2019-08-08 15:31:47,189][ERROR] - 第3步发生异常
+[2019-08-08 15:31:47,189][ERROR] - 
+java.lang.NullPointerException
+	at java.util.Objects.requireNonNull(Objects.java:203)
+	at org.openqa.selenium.interactions.PointerInput$Origin.fromElement(PointerInput.java:222)
+	at org.openqa.selenium.interactions.Actions.moveInTicks(Actions.java:416)
+	at org.openqa.selenium.interactions.Actions.click(Actions.java:322)
+	at common.RemoteElementAction.run(RemoteElementAction.java:193)
+	at java.lang.Thread.run(Thread.java:748)
+[2019-08-08 15:31:47,190][INFO] - 执行报错，关闭浏览器
+[2019-08-08 15:31:47,190][INFO] - 1.xls执行完成
+[2019-08-08 15:31:47,191][INFO] - =========脚本完成=========
+[2019-08-08 15:31:47,661][INFO] - 输出报告完成
+[2019-08-08 15:31:47,671][INFO] - 输出报告完成
+[2019-08-08 15:35:37,112][INFO] - =========脚本启动=========
+[2019-08-08 15:35:37,113][INFO] - 开始执行脚本：1.xls
+[2019-08-08 15:35:39,965][INFO] - 1步开始
+[2019-08-08 15:35:40,611][INFO] - 2步开始
+[2019-08-08 15:36:10,763][ERROR] - 元素(ID)'password1'找不到
+[2019-08-08 15:36:10,833][ERROR] - 第2步发生异常
+[2019-08-08 15:36:10,840][ERROR] - 
+java.lang.NullPointerException
+	at common.RemoteElementAction.run(RemoteElementAction.java:188)
+	at java.lang.Thread.run(Thread.java:748)
+[2019-08-08 15:36:10,843][INFO] - 执行报错，关闭浏览器
+[2019-08-08 15:36:13,391][INFO] - 1步开始
+[2019-08-08 15:36:14,048][INFO] - 2步开始
+[2019-08-08 15:36:14,796][INFO] - 3步开始
+[2019-08-08 15:36:26,550][INFO] - 4步开始
+[2019-08-08 15:36:39,470][INFO] - 5步开始
+[2019-08-08 15:36:46,042][INFO] - 6步开始
+[2019-08-08 15:36:51,959][INFO] - 7步开始
+[2019-08-08 15:36:52,538][INFO] - 8步开始
+[2019-08-08 15:37:22,738][ERROR] - 元素(XPATH)'//span[text()='新建画布']'找不到
+[2019-08-08 15:37:22,810][ERROR] - 第8步发生异常
+[2019-08-08 15:37:22,811][ERROR] - 
+java.lang.NullPointerException
+	at java.util.Objects.requireNonNull(Objects.java:203)
+	at org.openqa.selenium.interactions.PointerInput$Origin.fromElement(PointerInput.java:222)
+	at org.openqa.selenium.interactions.Actions.moveInTicks(Actions.java:416)
+	at org.openqa.selenium.interactions.Actions.click(Actions.java:322)
+	at common.RemoteElementAction.run(RemoteElementAction.java:193)
+	at java.lang.Thread.run(Thread.java:748)
+[2019-08-08 15:37:22,811][INFO] - 执行报错，关闭浏览器
+[2019-08-08 15:37:22,823][INFO] - 1.xls执行完成
+[2019-08-08 15:37:22,824][INFO] - =========脚本完成=========
+[2019-08-08 15:37:23,406][INFO] - 输出报告完成
+[2019-08-08 15:39:59,368][INFO] - =========脚本启动=========
+[2019-08-08 15:39:59,368][INFO] - =========脚本启动=========
+[2019-08-08 15:39:59,368][INFO] - 开始执行脚本：1.xls
+[2019-08-08 15:39:59,368][INFO] - 开始执行脚本：1.xls
+[2019-08-08 15:40:00,300][ERROR] - Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'yaoshideMacBook-Pro.local', ip: '172.16.0.75', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '1.8.0_181'
+Driver info: driver.version: RemoteWebDriver
+org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'yaoshideMacBook-Pro.local', ip: '172.16.0.75', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '1.8.0_181'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:573)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:144)
+	at common.RemoteOpenBrowser.openBrowser(RemoteOpenBrowser.java:29)
+	at common.RemoteElementAction.run(RemoteElementAction.java:110)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Failed to connect to /172.16.0.75:4444
+	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:242)
+	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:160)
+	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
+	at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)
+	at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
+	at okhttp3.RealCall.execute(RealCall.java:77)
+	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:105)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	... 6 more
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
+	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:240)
+	... 28 more
+[2019-08-08 15:40:00,300][ERROR] - Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'yaoshideMacBook-Pro.local', ip: '172.16.0.75', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '1.8.0_181'
+Driver info: driver.version: RemoteWebDriver
+org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'yaoshideMacBook-Pro.local', ip: '172.16.0.75', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '1.8.0_181'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:573)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:144)
+	at common.RemoteOpenBrowser.openBrowser(RemoteOpenBrowser.java:29)
+	at common.RemoteElementAction.run(RemoteElementAction.java:110)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Failed to connect to /172.16.0.75:4444
+	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:242)
+	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:160)
+	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
+	at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)
+	at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
+	at okhttp3.RealCall.execute(RealCall.java:77)
+	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:105)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	... 6 more
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
+	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:240)
+	... 28 more
+[2019-08-08 15:40:00,316][ERROR] - 第null步发生异常
+[2019-08-08 15:40:00,316][ERROR] - 第null步发生异常
+[2019-08-08 15:40:00,316][ERROR] - 
+java.lang.NullPointerException
+	at java.util.Objects.requireNonNull(Objects.java:203)
+	at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:106)
+	at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:45)
+	at common.RemoteElementAction.run(RemoteElementAction.java:113)
+	at java.lang.Thread.run(Thread.java:748)
+[2019-08-08 15:40:00,316][ERROR] - 
+java.lang.NullPointerException
+	at java.util.Objects.requireNonNull(Objects.java:203)
+	at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:106)
+	at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:45)
+	at common.RemoteElementAction.run(RemoteElementAction.java:113)
+	at java.lang.Thread.run(Thread.java:748)
+[2019-08-08 15:40:48,961][INFO] - =========脚本启动=========
+[2019-08-08 15:40:48,961][INFO] - 开始执行脚本：1.xls
+[2019-08-08 15:40:48,966][INFO] - =========脚本启动=========
+[2019-08-08 15:40:48,966][INFO] - 开始执行脚本：1.xls
+[2019-08-08 15:40:53,963][INFO] - 1步开始
+[2019-08-08 15:40:54,052][INFO] - 1步开始
+[2019-08-08 15:40:54,630][INFO] - 2步开始
+[2019-08-08 15:40:54,716][INFO] - 2步开始
+[2019-08-08 15:41:24,902][ERROR] - 元素(ID)'password1'找不到
+[2019-08-08 15:41:24,960][ERROR] - 第2步发生异常
+[2019-08-08 15:41:24,961][ERROR] - 
+java.lang.NullPointerException
+	at common.RemoteElementAction.run(RemoteElementAction.java:188)
+	at java.lang.Thread.run(Thread.java:748)
+[2019-08-08 15:41:24,964][INFO] - 执行报错，关闭浏览器
+[2019-08-08 15:41:24,992][ERROR] - 元素(ID)'password1'找不到
+[2019-08-08 15:41:24,997][ERROR] - 第2步发生异常
+[2019-08-08 15:41:24,997][ERROR] - 
+java.lang.NullPointerException
+	at common.RemoteElementAction.run(RemoteElementAction.java:188)
+	at java.lang.Thread.run(Thread.java:748)
+[2019-08-08 15:41:24,998][INFO] - 执行报错，关闭浏览器
+[2019-08-08 15:41:27,956][INFO] - 1步开始
+[2019-08-08 15:41:27,993][INFO] - 1步开始
+[2019-08-08 15:41:28,612][INFO] - 2步开始
+[2019-08-08 15:41:28,656][INFO] - 2步开始
+[2019-08-08 15:41:29,227][INFO] - 3步开始
+[2019-08-08 15:41:29,288][INFO] - 3步开始
+[2019-08-08 15:41:31,518][ERROR] - 第3步发生异常
+[2019-08-08 15:41:31,519][ERROR] - stale element reference: element is not attached to the page document
+  (Session info: chrome=75.0.3770.142)
+  (Driver info: chromedriver=2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'yaoshideMacBook-Pro.local', ip: '172.16.0.75', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565386 (45a059dc425e08..., userDataDir: /var/folders/23/l441s28j7gj...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 75.0.3770.142, webStorageEnabled: true, webdriver.remote.sessionid: 2da28c2baf41f545670db06b9c8...}
+Session ID: 2da28c2baf41f545670db06b9c8ab99b
+org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=75.0.3770.142)
+  (Driver info: chromedriver=2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'yaoshideMacBook-Pro.local', ip: '172.16.0.75', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565386 (45a059dc425e08..., userDataDir: /var/folders/23/l441s28j7gj...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 75.0.3770.142, webStorageEnabled: true, webdriver.remote.sessionid: 2da28c2baf41f545670db06b9c8...}
+Session ID: 2da28c2baf41f545670db06b9c8ab99b
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteExecuteMethod.execute(RemoteExecuteMethod.java:35)
+	at org.openqa.selenium.remote.RemoteMouse.mouseMove(RemoteMouse.java:89)
+	at org.openqa.selenium.interactions.internal.MouseAction.moveToLocation(MouseAction.java:77)
+	at org.openqa.selenium.interactions.ClickAction.perform(ClickAction.java:38)
+	at org.openqa.selenium.interactions.CompositeAction.perform(CompositeAction.java:34)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:642)
+	at org.openqa.selenium.interactions.Actions.perform(Actions.java:595)
+	at common.RemoteElementAction.run(RemoteElementAction.java:193)
+	at java.lang.Thread.run(Thread.java:748)
+[2019-08-08 15:41:31,631][INFO] - 执行报错，关闭浏览器
+[2019-08-08 15:41:31,632][INFO] - 1.xls执行完成
+[2019-08-08 15:41:31,632][INFO] - =========脚本完成=========
+[2019-08-08 15:41:31,946][INFO] - 输出报告完成
+[2019-08-08 15:50:08,503][INFO] - =========脚本启动=========
+[2019-08-08 15:50:08,507][INFO] - 开始执行脚本：1.xls
+[2019-08-08 15:50:08,509][INFO] - =========脚本启动=========
+[2019-08-08 15:50:08,509][INFO] - 开始执行脚本：1.xls
+[2019-08-08 15:50:12,349][INFO] - 1步开始
+[2019-08-08 15:50:12,409][INFO] - 1步开始
+[2019-08-08 15:50:13,065][INFO] - 2步开始
+[2019-08-08 15:50:13,116][INFO] - 2步开始
+[2019-08-08 15:50:13,680][INFO] - 3步开始
+[2019-08-08 15:50:13,745][INFO] - 3步开始
+[2019-08-08 15:50:14,371][INFO] - 4步开始
+[2019-08-08 15:50:14,520][INFO] - 4步开始
+[2019-08-08 15:50:39,967][INFO] - 5步开始
+[2019-08-08 15:50:39,974][INFO] - 5步开始
+[2019-08-08 15:51:06,457][INFO] - 7步开始
+[2019-08-08 15:51:08,321][INFO] - 7步开始
+[2019-08-08 15:51:36,924][ERROR] - 元素(XPATH)'//*[@id="mainframe"]'找不到
+[2019-08-08 15:51:37,004][ERROR] - 第7步发生异常
+[2019-08-08 15:51:37,005][ERROR] - null value in entry: id=null
+java.lang.NullPointerException: null value in entry: id=null
+	at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:32)
+	at com.google.common.collect.SingletonImmutableBiMap.<init>(SingletonImmutableBiMap.java:42)
+	at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:72)
+	at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:124)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:892)
+	at common.RemoteElementAction.run(RemoteElementAction.java:206)
+	at java.lang.Thread.run(Thread.java:748)
+[2019-08-08 15:51:37,009][INFO] - 执行报错，关闭浏览器
+[2019-08-08 15:51:37,230][ERROR] - 元素(XPATH)'//*[@id="mainframe"]'找不到
+[2019-08-08 15:51:37,230][ERROR] - 第7步发生异常
+[2019-08-08 15:51:37,230][ERROR] - null value in entry: id=null
+java.lang.NullPointerException: null value in entry: id=null
+	at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:32)
+	at com.google.common.collect.SingletonImmutableBiMap.<init>(SingletonImmutableBiMap.java:42)
+	at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:72)
+	at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:124)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:892)
+	at common.RemoteElementAction.run(RemoteElementAction.java:206)
+	at java.lang.Thread.run(Thread.java:748)
+[2019-08-08 15:51:37,230][INFO] - 执行报错，关闭浏览器
+[2019-08-08 15:51:41,061][INFO] - 1步开始
+[2019-08-08 15:51:41,139][INFO] - 1步开始
+[2019-08-08 15:51:41,797][INFO] - 2步开始
+[2019-08-08 15:51:41,882][INFO] - 2步开始
+[2019-08-08 15:51:42,425][INFO] - 3步开始
+[2019-08-08 15:51:42,483][ERROR] - 第3步发生异常
+[2019-08-08 15:51:42,483][ERROR] - stale element reference: element is not attached to the page document
+  (Session info: chrome=75.0.3770.142)
+  (Driver info: chromedriver=2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'yaoshideMacBook-Pro.local', ip: '172.16.0.75', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565386 (45a059dc425e08..., userDataDir: /var/folders/23/l441s28j7gj...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 75.0.3770.142, webStorageEnabled: true, webdriver.remote.sessionid: 0daa03fc48343c3031cb74b2712...}
+Session ID: 0daa03fc48343c3031cb74b2712afd1f
+org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=75.0.3770.142)
+  (Driver info: chromedriver=2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'yaoshideMacBook-Pro.local', ip: '172.16.0.75', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565386 (45a059dc425e08..., userDataDir: /var/folders/23/l441s28j7gj...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 75.0.3770.142, webStorageEnabled: true, webdriver.remote.sessionid: 0daa03fc48343c3031cb74b2712...}
+Session ID: 0daa03fc48343c3031cb74b2712afd1f
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteExecuteMethod.execute(RemoteExecuteMethod.java:35)
+	at org.openqa.selenium.remote.RemoteMouse.mouseMove(RemoteMouse.java:89)
+	at org.openqa.selenium.interactions.internal.MouseAction.moveToLocation(MouseAction.java:77)
+	at org.openqa.selenium.interactions.ClickAction.perform(ClickAction.java:38)
+	at org.openqa.selenium.interactions.CompositeAction.perform(CompositeAction.java:34)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:642)
+	at org.openqa.selenium.interactions.Actions.perform(Actions.java:595)
+	at common.RemoteElementAction.run(RemoteElementAction.java:193)
+	at java.lang.Thread.run(Thread.java:748)
+[2019-08-08 15:51:42,535][INFO] - 3步开始
+[2019-08-08 15:51:42,538][INFO] - 执行报错，关闭浏览器
+[2019-08-08 15:51:42,539][INFO] - 1.xls执行完成
+[2019-08-08 15:51:42,539][INFO] - =========脚本完成=========
+[2019-08-08 15:51:42,541][ERROR] - 元素(ID)'loginSubmit'找不到
+[2019-08-08 15:51:42,541][ERROR] - 第3步发生异常
+[2019-08-08 15:51:42,541][ERROR] - 
+java.lang.NullPointerException
+	at java.util.Objects.requireNonNull(Objects.java:203)
+	at org.openqa.selenium.interactions.PointerInput$Origin.fromElement(PointerInput.java:222)
+	at org.openqa.selenium.interactions.Actions.moveInTicks(Actions.java:416)
+	at org.openqa.selenium.interactions.Actions.click(Actions.java:322)
+	at common.RemoteElementAction.run(RemoteElementAction.java:193)
+	at java.lang.Thread.run(Thread.java:748)
+[2019-08-08 15:51:42,541][INFO] - 执行报错，关闭浏览器
+[2019-08-08 15:51:42,541][INFO] - 1.xls执行完成
+[2019-08-08 15:51:42,541][INFO] - =========脚本完成=========
+[2019-08-08 15:51:43,181][INFO] - 输出报告完成
+[2019-08-08 15:53:04,008][INFO] - =========脚本启动=========
+[2019-08-08 15:53:04,009][INFO] - 开始执行脚本：1.xls
+[2019-08-08 15:53:04,364][INFO] - 启动chrome浏览器
+[2019-08-08 15:53:07,867][INFO] - 1步开始
+[2019-08-08 15:53:08,577][INFO] - 2步开始
+[2019-08-08 15:53:09,180][INFO] - 3步开始
+[2019-08-08 15:53:11,681][INFO] - 4步开始
+[2019-08-08 15:53:12,843][INFO] - 5步开始
+[2019-08-08 15:53:15,339][INFO] - 7步开始
+[2019-08-08 15:53:15,909][INFO] - 8步开始
+[2019-08-08 15:53:16,597][INFO] - 9步开始
+[2019-08-08 15:53:17,136][INFO] - 94步开始
+[2019-08-08 15:53:18,320][INFO] - 95步开始
+[2019-08-08 15:53:18,960][INFO] - 96步开始
+[2019-08-08 15:53:19,556][INFO] - 97步开始
+[2019-08-08 15:53:20,131][INFO] - 98步开始
+[2019-08-08 15:53:20,731][INFO] - 99步开始
+[2019-08-08 15:53:23,697][INFO] - 截图保存到:/idea/UIAutoTest/pic/snap_1.xls_step99_2019-08-08 15:53:20.png
+[2019-08-08 15:53:24,227][INFO] - 100步开始
+[2019-08-08 15:53:24,732][INFO] - sleep:500毫秒
+[2019-08-08 15:53:25,244][INFO] - 101步开始
+[2019-08-08 15:53:25,274][ERROR] - 元素(ID)'preView'找不到
+[2019-08-08 15:53:25,530][ERROR] - 第101步发生异常
+[2019-08-08 15:53:25,531][ERROR] - 
+java.lang.NullPointerException
+	at java.util.Objects.requireNonNull(Objects.java:203)
+	at org.openqa.selenium.interactions.PointerInput$Origin.fromElement(PointerInput.java:222)
+	at org.openqa.selenium.interactions.Actions.moveInTicks(Actions.java:416)
+	at org.openqa.selenium.interactions.Actions.click(Actions.java:322)
+	at common.ElementAction.run(ElementAction.java:189)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+[2019-08-08 15:53:25,538][INFO] - 执行报错，关闭浏览器
+[2019-08-08 15:53:25,547][INFO] - 启动chrome浏览器
+[2019-08-08 15:53:27,986][INFO] - 1步开始
+[2019-08-08 15:53:28,037][ERROR] - 元素(ID)'username'找不到
+[2019-08-08 15:53:28,125][ERROR] - 第1步发生异常
+[2019-08-08 15:53:28,125][ERROR] - 
+java.lang.NullPointerException
+	at common.ElementAction.run(ElementAction.java:184)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+[2019-08-08 15:53:28,125][INFO] - 执行报错，关闭浏览器
+[2019-08-08 15:53:28,125][INFO] - 1.xls执行完成
+[2019-08-08 15:53:28,126][INFO] - =========脚本完成=========
+[2019-08-08 15:53:28,447][INFO] - 输出报告完成
+[2019-08-08 15:54:05,329][INFO] - =========脚本启动=========
+[2019-08-08 15:54:05,329][INFO] - 开始执行脚本：1.xls
+[2019-08-08 15:54:05,659][INFO] - 启动chrome浏览器
+[2019-08-08 15:54:08,540][INFO] - 1步开始
+[2019-08-08 15:54:09,212][INFO] - 2步开始
+[2019-08-08 15:54:09,816][INFO] - 3步开始
+[2019-08-08 15:54:11,515][INFO] - 4步开始
+[2019-08-08 15:54:13,223][INFO] - 5步开始
+[2019-08-08 15:54:15,567][INFO] - 7步开始
+[2019-08-08 15:54:16,132][INFO] - 8步开始
+[2019-08-08 15:54:16,806][INFO] - 9步开始
+[2019-08-08 15:54:17,343][INFO] - 94步开始
+[2019-08-08 15:54:18,477][INFO] - 95步开始
+[2019-08-08 15:54:19,109][INFO] - 96步开始
+[2019-08-08 15:54:19,697][INFO] - 97步开始
+[2019-08-08 15:54:20,259][INFO] - 98步开始
+[2019-08-08 15:54:20,847][INFO] - 99步开始
+[2019-08-08 15:54:23,659][INFO] - 截图保存到:/idea/UIAutoTest/pic/snap_1.xls_step99_2019-08-08 15:54:20.png
+[2019-08-08 15:54:24,173][INFO] - 100步开始
+[2019-08-08 15:54:24,675][INFO] - sleep:500毫秒
+[2019-08-08 15:54:25,186][INFO] - 101步开始
+[2019-08-08 15:54:25,784][INFO] - end步开始
+[2019-08-08 15:54:25,785][INFO] - Sheet1执行完成
+[2019-08-08 15:54:25,989][INFO] - 表格:Sheet1完成，关闭浏览器
+[2019-08-08 15:54:25,997][INFO] - 启动chrome浏览器
+[2019-08-08 15:54:28,912][INFO] - 1步开始
+[2019-08-08 15:54:29,595][INFO] - 2步开始
+[2019-08-08 15:54:30,217][INFO] - 3步开始
+[2019-08-08 15:54:32,915][INFO] - 4步开始
+[2019-08-08 15:54:34,869][INFO] - 5步开始
+[2019-08-08 15:54:37,282][INFO] - 7步开始
+[2019-08-08 15:54:37,878][INFO] - 8步开始
+[2019-08-08 15:54:38,650][INFO] - 9步开始
+[2019-08-08 15:54:39,246][INFO] - 94步开始
+[2019-08-08 15:54:41,307][INFO] - 95步开始
+[2019-08-08 15:54:41,964][INFO] - 96步开始
+[2019-08-08 15:54:42,574][INFO] - 97步开始
+[2019-08-08 15:54:43,143][INFO] - 98步开始
+[2019-08-08 15:54:43,726][INFO] - 99步开始
+[2019-08-08 15:54:46,671][INFO] - 截图保存到:/idea/UIAutoTest/pic/snap_1.xls_step99_2019-08-08 15:54:43.png
+[2019-08-08 15:54:47,182][INFO] - 100步开始
+[2019-08-08 15:54:47,687][INFO] - sleep:500毫秒
+[2019-08-08 15:54:48,199][INFO] - 101步开始
+[2019-08-08 15:54:48,801][INFO] - end步开始
+[2019-08-08 15:54:48,801][INFO] - 测试用例执行完成
+[2019-08-08 15:54:49,045][INFO] - 表格:测试用例完成，关闭浏览器
+[2019-08-08 15:54:49,046][INFO] - 1.xls执行完成
+[2019-08-08 15:54:49,046][INFO] - =========脚本完成=========
+[2019-08-08 15:54:49,337][INFO] - 输出报告完成
+[2019-08-08 15:55:05,849][INFO] - =========脚本启动=========
+[2019-08-08 15:55:05,849][INFO] - 开始执行脚本：1.xls
+[2019-08-08 15:55:05,849][INFO] - =========脚本启动=========
+[2019-08-08 15:55:05,850][INFO] - 开始执行脚本：1.xls
+[2019-08-08 15:55:09,595][INFO] - 1步开始
+[2019-08-08 15:55:09,730][INFO] - 1步开始
+[2019-08-08 15:55:10,242][INFO] - 2步开始
+[2019-08-08 15:55:10,385][INFO] - 2步开始
+[2019-08-08 15:55:10,846][INFO] - 3步开始
+[2019-08-08 15:55:10,913][ERROR] - 第3步发生异常
+[2019-08-08 15:55:10,913][ERROR] - stale element reference: element is not attached to the page document
+  (Session info: chrome=75.0.3770.142)
+  (Driver info: chromedriver=2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'yaoshideMacBook-Pro.local', ip: '172.16.0.75', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565386 (45a059dc425e08..., userDataDir: /var/folders/23/l441s28j7gj...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 75.0.3770.142, webStorageEnabled: true, webdriver.remote.sessionid: 23f6db762608fca9aef4bbe0668...}
+Session ID: 23f6db762608fca9aef4bbe066889860
+org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=75.0.3770.142)
+  (Driver info: chromedriver=2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'yaoshideMacBook-Pro.local', ip: '172.16.0.75', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565386 (45a059dc425e08..., userDataDir: /var/folders/23/l441s28j7gj...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 75.0.3770.142, webStorageEnabled: true, webdriver.remote.sessionid: 23f6db762608fca9aef4bbe0668...}
+Session ID: 23f6db762608fca9aef4bbe066889860
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteExecuteMethod.execute(RemoteExecuteMethod.java:35)
+	at org.openqa.selenium.remote.RemoteMouse.mouseMove(RemoteMouse.java:89)
+	at org.openqa.selenium.interactions.internal.MouseAction.moveToLocation(MouseAction.java:77)
+	at org.openqa.selenium.interactions.ClickAction.perform(ClickAction.java:38)
+	at org.openqa.selenium.interactions.CompositeAction.perform(CompositeAction.java:34)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:642)
+	at org.openqa.selenium.interactions.Actions.perform(Actions.java:595)
+	at common.RemoteElementAction.run(RemoteElementAction.java:193)
+	at java.lang.Thread.run(Thread.java:748)
+[2019-08-08 15:55:10,993][INFO] - 3步开始
+[2019-08-08 15:55:10,994][INFO] - 执行报错，关闭浏览器
+[2019-08-08 15:55:11,036][ERROR] - 元素(ID)'loginSubmit'找不到
+[2019-08-08 15:55:11,036][ERROR] - 第3步发生异常
+[2019-08-08 15:55:11,036][ERROR] - 
+java.lang.NullPointerException
+	at java.util.Objects.requireNonNull(Objects.java:203)
+	at org.openqa.selenium.interactions.PointerInput$Origin.fromElement(PointerInput.java:222)
+	at org.openqa.selenium.interactions.Actions.moveInTicks(Actions.java:416)
+	at org.openqa.selenium.interactions.Actions.click(Actions.java:322)
+	at common.RemoteElementAction.run(RemoteElementAction.java:193)
+	at java.lang.Thread.run(Thread.java:748)
+[2019-08-08 15:55:11,036][INFO] - 执行报错，关闭浏览器
+[2019-08-08 15:55:14,171][INFO] - 1步开始
+[2019-08-08 15:55:14,252][INFO] - 1步开始
+[2019-08-08 15:55:14,907][INFO] - 2步开始
+[2019-08-08 15:55:15,030][INFO] - 2步开始
+[2019-08-08 15:55:15,569][INFO] - 3步开始
+[2019-08-08 15:55:15,619][ERROR] - 第3步发生异常
+[2019-08-08 15:55:15,619][ERROR] - stale element reference: element is not attached to the page document
+  (Session info: chrome=75.0.3770.142)
+  (Driver info: chromedriver=2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'yaoshideMacBook-Pro.local', ip: '172.16.0.75', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565386 (45a059dc425e08..., userDataDir: /var/folders/23/l441s28j7gj...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 75.0.3770.142, webStorageEnabled: true, webdriver.remote.sessionid: 715e17d31310fe9d2126ec9f958...}
+Session ID: 715e17d31310fe9d2126ec9f95892931
+org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=75.0.3770.142)
+  (Driver info: chromedriver=2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'yaoshideMacBook-Pro.local', ip: '172.16.0.75', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565386 (45a059dc425e08..., userDataDir: /var/folders/23/l441s28j7gj...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 75.0.3770.142, webStorageEnabled: true, webdriver.remote.sessionid: 715e17d31310fe9d2126ec9f958...}
+Session ID: 715e17d31310fe9d2126ec9f95892931
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteExecuteMethod.execute(RemoteExecuteMethod.java:35)
+	at org.openqa.selenium.remote.RemoteMouse.mouseMove(RemoteMouse.java:89)
+	at org.openqa.selenium.interactions.internal.MouseAction.moveToLocation(MouseAction.java:77)
+	at org.openqa.selenium.interactions.ClickAction.perform(ClickAction.java:38)
+	at org.openqa.selenium.interactions.CompositeAction.perform(CompositeAction.java:34)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:642)
+	at org.openqa.selenium.interactions.Actions.perform(Actions.java:595)
+	at common.RemoteElementAction.run(RemoteElementAction.java:193)
+	at java.lang.Thread.run(Thread.java:748)
+[2019-08-08 15:55:15,693][INFO] - 执行报错，关闭浏览器
+[2019-08-08 15:55:15,693][INFO] - 1.xls执行完成
+[2019-08-08 15:55:15,694][INFO] - =========脚本完成=========
+[2019-08-08 15:55:15,778][INFO] - 3步开始
+[2019-08-08 15:55:15,779][ERROR] - 元素(ID)'loginSubmit'找不到
+[2019-08-08 15:55:15,779][ERROR] - 第3步发生异常
+[2019-08-08 15:55:15,779][ERROR] - 
+java.lang.NullPointerException
+	at java.util.Objects.requireNonNull(Objects.java:203)
+	at org.openqa.selenium.interactions.PointerInput$Origin.fromElement(PointerInput.java:222)
+	at org.openqa.selenium.interactions.Actions.moveInTicks(Actions.java:416)
+	at org.openqa.selenium.interactions.Actions.click(Actions.java:322)
+	at common.RemoteElementAction.run(RemoteElementAction.java:193)
+	at java.lang.Thread.run(Thread.java:748)
+[2019-08-08 15:55:15,779][INFO] - 执行报错，关闭浏览器
+[2019-08-08 15:55:15,779][INFO] - 1.xls执行完成
+[2019-08-08 15:55:15,780][INFO] - =========脚本完成=========
+[2019-08-08 15:55:16,045][INFO] - 输出报告完成
+[2019-08-08 17:45:41,146][INFO] - =========脚本启动=========
+[2019-08-08 17:45:41,147][INFO] - 开始执行脚本：1.xls
+[2019-08-08 17:45:41,228][INFO] - =========脚本启动=========
+[2019-08-08 17:45:41,229][INFO] - 开始执行脚本：1.xls
+[2019-08-08 17:45:45,572][INFO] - 1步开始
+[2019-08-08 17:45:45,645][INFO] - 1步开始
+[2019-08-08 17:45:46,355][INFO] - 2步开始
+[2019-08-08 17:45:46,359][INFO] - 2步开始
+[2019-08-08 17:45:46,986][INFO] - 3步开始
+[2019-08-08 17:45:47,000][INFO] - 3步开始
+[2019-08-08 17:45:47,065][ERROR] - 第3步发生异常
+[2019-08-08 17:45:47,066][ERROR] - stale element reference: element is not attached to the page document
+  (Session info: chrome=75.0.3770.142)
+  (Driver info: chromedriver=2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'yaoshideMacBook-Pro.local', ip: '172.16.0.75', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565386 (45a059dc425e08..., userDataDir: /var/folders/23/l441s28j7gj...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 75.0.3770.142, webStorageEnabled: true, webdriver.remote.sessionid: 28a5ecba8fce26ec339729244ef...}
+Session ID: 28a5ecba8fce26ec339729244ef5c3c9
+org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=75.0.3770.142)
+  (Driver info: chromedriver=2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'yaoshideMacBook-Pro.local', ip: '172.16.0.75', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565386 (45a059dc425e08..., userDataDir: /var/folders/23/l441s28j7gj...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 75.0.3770.142, webStorageEnabled: true, webdriver.remote.sessionid: 28a5ecba8fce26ec339729244ef...}
+Session ID: 28a5ecba8fce26ec339729244ef5c3c9
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteExecuteMethod.execute(RemoteExecuteMethod.java:35)
+	at org.openqa.selenium.remote.RemoteMouse.mouseMove(RemoteMouse.java:89)
+	at org.openqa.selenium.interactions.internal.MouseAction.moveToLocation(MouseAction.java:77)
+	at org.openqa.selenium.interactions.ClickAction.perform(ClickAction.java:38)
+	at org.openqa.selenium.interactions.CompositeAction.perform(CompositeAction.java:34)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:642)
+	at org.openqa.selenium.interactions.Actions.perform(Actions.java:595)
+	at common.RemoteElementAction.run(RemoteElementAction.java:193)
+	at java.lang.Thread.run(Thread.java:748)
+[2019-08-08 17:45:47,129][INFO] - 执行报错，关闭浏览器
+[2019-08-08 17:45:47,160][ERROR] - 第3步发生异常
+[2019-08-08 17:45:47,160][ERROR] - no such session
+  (Driver info: chromedriver=2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'yaoshideMacBook-Pro.local', ip: '172.16.0.75', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565386 (45a059dc425e08..., userDataDir: /var/folders/23/l441s28j7gj...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 75.0.3770.142, webStorageEnabled: true, webdriver.remote.sessionid: 28a5ecba8fce26ec339729244ef...}
+org.openqa.selenium.NoSuchSessionException: no such session
+  (Driver info: chromedriver=2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'yaoshideMacBook-Pro.local', ip: '172.16.0.75', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565386 (45a059dc425e08..., userDataDir: /var/folders/23/l441s28j7gj...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 75.0.3770.142, webStorageEnabled: true, webdriver.remote.sessionid: 28a5ecba8fce26ec339729244ef...}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteExecuteMethod.execute(RemoteExecuteMethod.java:35)
+	at org.openqa.selenium.remote.RemoteMouse.mouseMove(RemoteMouse.java:89)
+	at org.openqa.selenium.remote.RemoteMouse.moveIfNeeded(RemoteMouse.java:52)
+	at org.openqa.selenium.remote.RemoteMouse.click(RemoteMouse.java:57)
+	at org.openqa.selenium.interactions.ClickAction.perform(ClickAction.java:39)
+	at org.openqa.selenium.interactions.CompositeAction.perform(CompositeAction.java:34)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:642)
+	at org.openqa.selenium.interactions.Actions.perform(Actions.java:595)
+	at common.RemoteElementAction.run(RemoteElementAction.java:193)
+	at java.lang.Thread.run(Thread.java:748)
+[2019-08-08 17:45:47,161][INFO] - 执行报错，关闭浏览器
+[2019-08-08 17:45:50,245][INFO] - 1步开始
+[2019-08-08 17:45:50,440][INFO] - 1步开始
+[2019-08-08 17:45:50,940][INFO] - 2步开始
+[2019-08-08 17:45:51,146][INFO] - 2步开始
+[2019-08-08 17:45:51,620][INFO] - 3步开始
+[2019-08-08 17:45:51,797][INFO] - 3步开始
+[2019-08-08 17:45:57,246][ERROR] - 第3步发生异常
+[2019-08-08 17:45:57,250][ERROR] - stale element reference: element is not attached to the page document
+  (Session info: chrome=75.0.3770.142)
+  (Driver info: chromedriver=2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'yaoshideMacBook-Pro.local', ip: '172.16.0.75', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565386 (45a059dc425e08..., userDataDir: /var/folders/23/l441s28j7gj...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 75.0.3770.142, webStorageEnabled: true, webdriver.remote.sessionid: 3e83f592330e3c4557caa594561...}
+Session ID: 3e83f592330e3c4557caa5945616dc88
+org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=75.0.3770.142)
+  (Driver info: chromedriver=2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'yaoshideMacBook-Pro.local', ip: '172.16.0.75', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565386 (45a059dc425e08..., userDataDir: /var/folders/23/l441s28j7gj...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 75.0.3770.142, webStorageEnabled: true, webdriver.remote.sessionid: 3e83f592330e3c4557caa594561...}
+Session ID: 3e83f592330e3c4557caa5945616dc88
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteExecuteMethod.execute(RemoteExecuteMethod.java:35)
+	at org.openqa.selenium.remote.RemoteMouse.mouseMove(RemoteMouse.java:89)
+	at org.openqa.selenium.interactions.internal.MouseAction.moveToLocation(MouseAction.java:77)
+	at org.openqa.selenium.interactions.ClickAction.perform(ClickAction.java:38)
+	at org.openqa.selenium.interactions.CompositeAction.perform(CompositeAction.java:34)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:642)
+	at org.openqa.selenium.interactions.Actions.perform(Actions.java:595)
+	at common.RemoteElementAction.run(RemoteElementAction.java:193)
+	at java.lang.Thread.run(Thread.java:748)
+[2019-08-08 17:45:57,350][INFO] - 执行报错，关闭浏览器
+[2019-08-08 17:45:57,352][INFO] - 1.xls执行完成
+[2019-08-08 17:45:57,352][INFO] - =========脚本完成=========
+[2019-08-08 17:45:57,374][ERROR] - 第3步发生异常
+[2019-08-08 17:45:57,377][ERROR] - no such session
+  (Driver info: chromedriver=2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'yaoshideMacBook-Pro.local', ip: '172.16.0.75', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565386 (45a059dc425e08..., userDataDir: /var/folders/23/l441s28j7gj...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 75.0.3770.142, webStorageEnabled: true, webdriver.remote.sessionid: 3e83f592330e3c4557caa594561...}
+org.openqa.selenium.NoSuchSessionException: no such session
+  (Driver info: chromedriver=2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'yaoshideMacBook-Pro.local', ip: '172.16.0.75', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565386 (45a059dc425e08..., userDataDir: /var/folders/23/l441s28j7gj...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 75.0.3770.142, webStorageEnabled: true, webdriver.remote.sessionid: 3e83f592330e3c4557caa594561...}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteExecuteMethod.execute(RemoteExecuteMethod.java:35)
+	at org.openqa.selenium.remote.RemoteMouse.mouseMove(RemoteMouse.java:89)
+	at org.openqa.selenium.remote.RemoteMouse.moveIfNeeded(RemoteMouse.java:52)
+	at org.openqa.selenium.remote.RemoteMouse.click(RemoteMouse.java:57)
+	at org.openqa.selenium.interactions.ClickAction.perform(ClickAction.java:39)
+	at org.openqa.selenium.interactions.CompositeAction.perform(CompositeAction.java:34)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:642)
+	at org.openqa.selenium.interactions.Actions.perform(Actions.java:595)
+	at common.RemoteElementAction.run(RemoteElementAction.java:193)
+	at java.lang.Thread.run(Thread.java:748)
+[2019-08-08 17:45:57,384][INFO] - 执行报错，关闭浏览器
+[2019-08-08 17:45:57,384][INFO] - 1.xls执行完成
+[2019-08-08 17:45:57,384][INFO] - =========脚本完成=========
+[2019-08-08 17:45:57,840][INFO] - 输出报告完成
+[2019-08-08 18:49:19,847][INFO] - =========脚本启动=========
+[2019-08-08 18:49:19,847][INFO] - =========脚本启动=========
+[2019-08-08 18:49:19,848][INFO] - 开始执行脚本：1.xls
+[2019-08-08 18:49:19,848][INFO] - 开始执行脚本：1.xls
+[2019-08-08 18:49:23,503][INFO] - 1步开始
+[2019-08-08 18:49:23,576][INFO] - 1步开始
+[2019-08-08 18:49:24,155][INFO] - 2步开始
+[2019-08-08 18:49:24,249][INFO] - 2步开始
+[2019-08-08 18:49:24,766][INFO] - 3步开始
+[2019-08-08 18:49:24,828][INFO] - 3步开始
+[2019-08-08 18:49:35,858][INFO] - 4步开始
+[2019-08-08 18:49:46,177][INFO] - 4步开始
+[2019-08-08 18:50:06,319][ERROR] - 元素(linkText)'大数据产品'找不到
+[2019-08-08 18:50:06,381][ERROR] - 第4步发生异常
+[2019-08-08 18:50:06,382][ERROR] - 
+java.lang.NullPointerException
+	at java.util.Objects.requireNonNull(Objects.java:203)
+	at org.openqa.selenium.interactions.PointerInput$Origin.fromElement(PointerInput.java:222)
+	at org.openqa.selenium.interactions.Actions.moveInTicks(Actions.java:416)
+	at org.openqa.selenium.interactions.Actions.click(Actions.java:322)
+	at common.RemoteElementAction.run(RemoteElementAction.java:193)
+	at java.lang.Thread.run(Thread.java:748)
+[2019-08-08 18:50:06,384][INFO] - 执行报错，关闭浏览器
+[2019-08-08 18:50:06,833][ERROR] - 元素(linkText)'大数据产品'找不到
+[2019-08-08 18:50:06,833][ERROR] - 第4步发生异常
+[2019-08-08 18:50:06,833][ERROR] - 
+java.lang.NullPointerException
+	at java.util.Objects.requireNonNull(Objects.java:203)
+	at org.openqa.selenium.interactions.PointerInput$Origin.fromElement(PointerInput.java:222)
+	at org.openqa.selenium.interactions.Actions.moveInTicks(Actions.java:416)
+	at org.openqa.selenium.interactions.Actions.click(Actions.java:322)
+	at common.RemoteElementAction.run(RemoteElementAction.java:193)
+	at java.lang.Thread.run(Thread.java:748)
+[2019-08-08 18:50:06,833][INFO] - 执行报错，关闭浏览器
+[2019-08-08 18:50:09,422][INFO] - 1步开始
+[2019-08-08 18:50:09,787][INFO] - 1步开始
+[2019-08-08 18:50:10,110][INFO] - 2步开始
+[2019-08-08 18:50:10,443][INFO] - 2步开始
+[2019-08-08 18:50:10,715][INFO] - 3步开始
+[2019-08-08 18:50:10,759][ERROR] - 第3步发生异常
+[2019-08-08 18:50:10,759][ERROR] - stale element reference: element is not attached to the page document
+  (Session info: chrome=75.0.3770.142)
+  (Driver info: chromedriver=2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'yaoshideMacBook-Pro.local', ip: '172.16.0.75', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565386 (45a059dc425e08..., userDataDir: /var/folders/23/l441s28j7gj...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 75.0.3770.142, webStorageEnabled: true, webdriver.remote.sessionid: 461ec162be3a9f494f6cbaca874...}
+Session ID: 461ec162be3a9f494f6cbaca8743aa47
+org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=75.0.3770.142)
+  (Driver info: chromedriver=2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'yaoshideMacBook-Pro.local', ip: '172.16.0.75', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565386 (45a059dc425e08..., userDataDir: /var/folders/23/l441s28j7gj...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 75.0.3770.142, webStorageEnabled: true, webdriver.remote.sessionid: 461ec162be3a9f494f6cbaca874...}
+Session ID: 461ec162be3a9f494f6cbaca8743aa47
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteExecuteMethod.execute(RemoteExecuteMethod.java:35)
+	at org.openqa.selenium.remote.RemoteMouse.mouseMove(RemoteMouse.java:89)
+	at org.openqa.selenium.interactions.internal.MouseAction.moveToLocation(MouseAction.java:77)
+	at org.openqa.selenium.interactions.ClickAction.perform(ClickAction.java:38)
+	at org.openqa.selenium.interactions.CompositeAction.perform(CompositeAction.java:34)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:642)
+	at org.openqa.selenium.interactions.Actions.perform(Actions.java:595)
+	at common.RemoteElementAction.run(RemoteElementAction.java:193)
+	at java.lang.Thread.run(Thread.java:748)
+[2019-08-08 18:50:10,815][INFO] - 执行报错，关闭浏览器
+[2019-08-08 18:50:10,815][INFO] - 1.xls执行完成
+[2019-08-08 18:50:10,815][INFO] - =========脚本完成=========
+[2019-08-08 18:50:11,094][INFO] - 3步开始
+[2019-08-08 18:50:11,108][ERROR] - 元素(ID)'loginSubmit'找不到
+[2019-08-08 18:50:11,109][ERROR] - 第3步发生异常
+[2019-08-08 18:50:11,109][ERROR] - 
+java.lang.NullPointerException
+	at java.util.Objects.requireNonNull(Objects.java:203)
+	at org.openqa.selenium.interactions.PointerInput$Origin.fromElement(PointerInput.java:222)
+	at org.openqa.selenium.interactions.Actions.moveInTicks(Actions.java:416)
+	at org.openqa.selenium.interactions.Actions.click(Actions.java:322)
+	at common.RemoteElementAction.run(RemoteElementAction.java:193)
+	at java.lang.Thread.run(Thread.java:748)
+[2019-08-08 18:50:11,109][INFO] - 执行报错，关闭浏览器
+[2019-08-08 18:50:11,109][INFO] - 1.xls执行完成
+[2019-08-08 18:50:11,109][INFO] - =========脚本完成=========
+[2019-08-08 18:50:11,193][INFO] - 输出报告完成
+[2019-08-08 18:54:51,091][INFO] - =========脚本启动=========
+[2019-08-08 18:54:51,094][INFO] - 开始执行脚本：1.xls
+[2019-08-08 18:54:51,346][INFO] - =========脚本启动=========
+[2019-08-08 18:54:51,346][INFO] - 开始执行脚本：1.xls
+[2019-08-08 18:54:55,068][INFO] - 1步开始
+[2019-08-08 18:54:55,146][INFO] - 1步开始
+[2019-08-08 18:54:55,723][INFO] - 2步开始
+[2019-08-08 18:54:55,818][INFO] - 2步开始
+[2019-08-08 18:54:56,324][INFO] - 3步开始
+[2019-08-08 18:54:56,387][ERROR] - 第3步发生异常
+[2019-08-08 18:54:56,387][ERROR] - stale element reference: element is not attached to the page document
+  (Session info: chrome=75.0.3770.142)
+  (Driver info: chromedriver=2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'yaoshideMacBook-Pro.local', ip: '172.16.0.75', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565386 (45a059dc425e08..., userDataDir: /var/folders/23/l441s28j7gj...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 75.0.3770.142, webStorageEnabled: true, webdriver.remote.sessionid: e504cfac5e0dcaf98faae514588...}
+Session ID: e504cfac5e0dcaf98faae514588e5d8e
+org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=75.0.3770.142)
+  (Driver info: chromedriver=2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'yaoshideMacBook-Pro.local', ip: '172.16.0.75', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565386 (45a059dc425e08..., userDataDir: /var/folders/23/l441s28j7gj...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 75.0.3770.142, webStorageEnabled: true, webdriver.remote.sessionid: e504cfac5e0dcaf98faae514588...}
+Session ID: e504cfac5e0dcaf98faae514588e5d8e
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteExecuteMethod.execute(RemoteExecuteMethod.java:35)
+	at org.openqa.selenium.remote.RemoteMouse.mouseMove(RemoteMouse.java:89)
+	at org.openqa.selenium.interactions.internal.MouseAction.moveToLocation(MouseAction.java:77)
+	at org.openqa.selenium.interactions.ClickAction.perform(ClickAction.java:38)
+	at org.openqa.selenium.interactions.CompositeAction.perform(CompositeAction.java:34)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:642)
+	at org.openqa.selenium.interactions.Actions.perform(Actions.java:595)
+	at common.RemoteElementAction.run(RemoteElementAction.java:193)
+	at java.lang.Thread.run(Thread.java:748)
+[2019-08-08 18:54:56,425][INFO] - 3步开始
+[2019-08-08 18:54:56,456][INFO] - 执行报错，关闭浏览器
+[2019-08-08 18:54:56,472][ERROR] - 元素(ID)'loginSubmit'找不到
+[2019-08-08 18:54:56,472][ERROR] - 第3步发生异常
+[2019-08-08 18:54:56,472][ERROR] - 
+java.lang.NullPointerException
+	at java.util.Objects.requireNonNull(Objects.java:203)
+	at org.openqa.selenium.interactions.PointerInput$Origin.fromElement(PointerInput.java:222)
+	at org.openqa.selenium.interactions.Actions.moveInTicks(Actions.java:416)
+	at org.openqa.selenium.interactions.Actions.click(Actions.java:322)
+	at common.RemoteElementAction.run(RemoteElementAction.java:193)
+	at java.lang.Thread.run(Thread.java:748)
+[2019-08-08 18:54:56,472][INFO] - 执行报错，关闭浏览器
+[2019-08-08 18:55:00,109][INFO] - 1步开始
+[2019-08-08 18:55:00,167][INFO] - 1步开始
+[2019-08-08 18:55:00,817][INFO] - 2步开始
+[2019-08-08 18:55:00,882][INFO] - 2步开始
+[2019-08-08 18:55:01,498][INFO] - 3步开始
+[2019-08-08 18:55:01,568][INFO] - 3步开始
+[2019-08-08 18:55:02,699][INFO] - 4步开始
+[2019-08-08 18:55:05,266][ERROR] - 第3步发生异常
+[2019-08-08 18:55:05,266][ERROR] - stale element reference: element is not attached to the page document
+  (Session info: chrome=75.0.3770.142)
+  (Driver info: chromedriver=2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'yaoshideMacBook-Pro.local', ip: '172.16.0.75', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565386 (45a059dc425e08..., userDataDir: /var/folders/23/l441s28j7gj...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 75.0.3770.142, webStorageEnabled: true, webdriver.remote.sessionid: 26804aa79726276ef56cd33ca2e...}
+Session ID: 26804aa79726276ef56cd33ca2e292dd
+org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=75.0.3770.142)
+  (Driver info: chromedriver=2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'yaoshideMacBook-Pro.local', ip: '172.16.0.75', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565386 (45a059dc425e08..., userDataDir: /var/folders/23/l441s28j7gj...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 75.0.3770.142, webStorageEnabled: true, webdriver.remote.sessionid: 26804aa79726276ef56cd33ca2e...}
+Session ID: 26804aa79726276ef56cd33ca2e292dd
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteExecuteMethod.execute(RemoteExecuteMethod.java:35)
+	at org.openqa.selenium.remote.RemoteMouse.mouseMove(RemoteMouse.java:89)
+	at org.openqa.selenium.interactions.internal.MouseAction.moveToLocation(MouseAction.java:77)
+	at org.openqa.selenium.interactions.ClickAction.perform(ClickAction.java:38)
+	at org.openqa.selenium.interactions.CompositeAction.perform(CompositeAction.java:34)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:642)
+	at org.openqa.selenium.interactions.Actions.perform(Actions.java:595)
+	at common.RemoteElementAction.run(RemoteElementAction.java:193)
+	at java.lang.Thread.run(Thread.java:748)
+[2019-08-08 18:55:05,439][INFO] - 执行报错，关闭浏览器
+[2019-08-08 18:55:05,518][INFO] - 1.xls执行完成
+[2019-08-08 18:55:05,518][INFO] - =========脚本完成=========
+[2019-08-08 18:55:05,592][ERROR] - 元素(linkText)'大数据产品'找不到
+[2019-08-08 18:55:05,592][ERROR] - 第4步发生异常
+[2019-08-08 18:55:05,592][ERROR] - 
+java.lang.NullPointerException
+	at java.util.Objects.requireNonNull(Objects.java:203)
+	at org.openqa.selenium.interactions.PointerInput$Origin.fromElement(PointerInput.java:222)
+	at org.openqa.selenium.interactions.Actions.moveInTicks(Actions.java:416)
+	at org.openqa.selenium.interactions.Actions.click(Actions.java:322)
+	at common.RemoteElementAction.run(RemoteElementAction.java:193)
+	at java.lang.Thread.run(Thread.java:748)
+[2019-08-08 18:55:05,593][INFO] - 执行报错，关闭浏览器
+[2019-08-08 18:55:05,695][INFO] - 输出报告完成
+[2019-08-08 19:19:50,042][INFO] - =========脚本启动=========
+[2019-08-08 19:19:50,043][INFO] - 开始执行脚本：1.xls
+[2019-08-08 19:19:50,111][INFO] - =========脚本启动=========
+[2019-08-08 19:19:50,111][INFO] - 开始执行脚本：1.xls
+[2019-08-08 19:19:55,079][INFO] - 1步开始
+[2019-08-08 19:19:55,152][INFO] - 1步开始
+[2019-08-08 19:19:55,768][INFO] - 2步开始
+[2019-08-08 19:19:55,833][INFO] - 2步开始
+[2019-08-08 19:19:56,381][INFO] - 3步开始
+[2019-08-08 19:19:56,446][INFO] - 3步开始
+[2019-08-08 19:20:07,303][INFO] - 4步开始
+[2019-08-08 19:20:11,189][INFO] - 4步开始
+[2019-08-08 19:20:37,572][ERROR] - 元素(linkText)'大数据产品'找不到
+[2019-08-08 19:20:37,628][ERROR] - 第4步发生异常
+[2019-08-08 19:20:37,629][ERROR] - 
+java.lang.NullPointerException
+	at java.util.Objects.requireNonNull(Objects.java:203)
+	at org.openqa.selenium.interactions.PointerInput$Origin.fromElement(PointerInput.java:222)
+	at org.openqa.selenium.interactions.Actions.moveInTicks(Actions.java:416)
+	at org.openqa.selenium.interactions.Actions.click(Actions.java:322)
+	at common.RemoteElementAction.run(RemoteElementAction.java:193)
+	at java.lang.Thread.run(Thread.java:748)
+[2019-08-08 19:20:37,632][INFO] - 执行报错，关闭浏览器
+[2019-08-08 19:20:37,666][ERROR] - 元素(linkText)'大数据产品'找不到
+[2019-08-08 19:20:37,666][ERROR] - 第4步发生异常
+[2019-08-08 19:20:37,666][ERROR] - 
+java.lang.NullPointerException
+	at java.util.Objects.requireNonNull(Objects.java:203)
+	at org.openqa.selenium.interactions.PointerInput$Origin.fromElement(PointerInput.java:222)
+	at org.openqa.selenium.interactions.Actions.moveInTicks(Actions.java:416)
+	at org.openqa.selenium.interactions.Actions.click(Actions.java:322)
+	at common.RemoteElementAction.run(RemoteElementAction.java:193)
+	at java.lang.Thread.run(Thread.java:748)
+[2019-08-08 19:20:37,666][INFO] - 执行报错，关闭浏览器
+[2019-08-08 19:20:40,466][INFO] - 1步开始
+[2019-08-08 19:20:40,557][INFO] - 1步开始
+[2019-08-08 19:20:41,150][INFO] - 2步开始
+[2019-08-08 19:20:41,245][INFO] - 2步开始
+[2019-08-08 19:20:41,754][INFO] - 3步开始
+[2019-08-08 19:20:41,852][INFO] - 3步开始
+[2019-08-08 19:20:44,367][ERROR] - 第3步发生异常
+[2019-08-08 19:20:44,368][ERROR] - stale element reference: element is not attached to the page document
+  (Session info: chrome=75.0.3770.142)
+  (Driver info: chromedriver=2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'yaoshideMacBook-Pro.local', ip: '172.16.0.75', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565386 (45a059dc425e08..., userDataDir: /var/folders/23/l441s28j7gj...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 75.0.3770.142, webStorageEnabled: true, webdriver.remote.sessionid: 7a68ac49f839961871450de8639...}
+Session ID: 7a68ac49f839961871450de863970c2c
+org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=75.0.3770.142)
+  (Driver info: chromedriver=2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'yaoshideMacBook-Pro.local', ip: '172.16.0.75', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565386 (45a059dc425e08..., userDataDir: /var/folders/23/l441s28j7gj...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 75.0.3770.142, webStorageEnabled: true, webdriver.remote.sessionid: 7a68ac49f839961871450de8639...}
+Session ID: 7a68ac49f839961871450de863970c2c
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteExecuteMethod.execute(RemoteExecuteMethod.java:35)
+	at org.openqa.selenium.remote.RemoteMouse.mouseMove(RemoteMouse.java:89)
+	at org.openqa.selenium.interactions.internal.MouseAction.moveToLocation(MouseAction.java:77)
+	at org.openqa.selenium.interactions.ClickAction.perform(ClickAction.java:38)
+	at org.openqa.selenium.interactions.CompositeAction.perform(CompositeAction.java:34)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:642)
+	at org.openqa.selenium.interactions.Actions.perform(Actions.java:595)
+	at common.RemoteElementAction.run(RemoteElementAction.java:193)
+	at java.lang.Thread.run(Thread.java:748)
+[2019-08-08 19:20:44,481][INFO] - 执行报错，关闭浏览器
+[2019-08-08 19:20:44,499][ERROR] - 第3步发生异常
+[2019-08-08 19:20:44,501][ERROR] - no such session
+  (Driver info: chromedriver=2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'yaoshideMacBook-Pro.local', ip: '172.16.0.75', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565386 (45a059dc425e08..., userDataDir: /var/folders/23/l441s28j7gj...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 75.0.3770.142, webStorageEnabled: true, webdriver.remote.sessionid: 7a68ac49f839961871450de8639...}
+org.openqa.selenium.NoSuchSessionException: no such session
+  (Driver info: chromedriver=2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'yaoshideMacBook-Pro.local', ip: '172.16.0.75', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565386 (45a059dc425e08..., userDataDir: /var/folders/23/l441s28j7gj...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 75.0.3770.142, webStorageEnabled: true, webdriver.remote.sessionid: 7a68ac49f839961871450de8639...}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteExecuteMethod.execute(RemoteExecuteMethod.java:35)
+	at org.openqa.selenium.remote.RemoteMouse.click(RemoteMouse.java:59)
+	at org.openqa.selenium.interactions.ClickAction.perform(ClickAction.java:39)
+	at org.openqa.selenium.interactions.CompositeAction.perform(CompositeAction.java:34)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:642)
+	at org.openqa.selenium.interactions.Actions.perform(Actions.java:595)
+	at common.RemoteElementAction.run(RemoteElementAction.java:193)
+	at java.lang.Thread.run(Thread.java:748)
+[2019-08-08 19:20:44,502][INFO] - 执行报错，关闭浏览器
+[2019-08-08 19:20:44,605][INFO] - 1.xls执行完成
+[2019-08-08 19:20:44,606][INFO] - =========脚本完成=========
+[2019-08-08 19:20:44,789][INFO] - 输出报告完成

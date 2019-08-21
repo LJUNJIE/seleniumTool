@@ -1,0 +1,270 @@
+[2019-08-13 10:07:05,833][INFO] - =========脚本启动=========
+[2019-08-13 10:07:05,834][INFO] - 开始执行脚本：1.xls
+[2019-08-13 10:07:06,195][INFO] - 启动chrome浏览器
+[2019-08-13 10:07:40,537][ERROR] - 第null步发生异常
+[2019-08-13 10:07:40,539][ERROR] - chrome not reachable
+  (Session info: chrome=76.0.3809.100)
+  (Driver info: chromedriver=2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'yaoshideMacBook-Pro.local', ip: 'fe80:0:0:0:1cb2:7390:184f:83b5%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565386 (45a059dc425e08..., userDataDir: /var/folders/23/l441s28j7gj...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 76.0.3809.100, webStorageEnabled: true}
+Session ID: ac60255e4b6eac9b9489a4a5a358faf7
+org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=76.0.3809.100)
+  (Driver info: chromedriver=2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'yaoshideMacBook-Pro.local', ip: 'fe80:0:0:0:1cb2:7390:184f:83b5%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565386 (45a059dc425e08..., userDataDir: /var/folders/23/l441s28j7gj...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 76.0.3809.100, webStorageEnabled: true}
+Session ID: ac60255e4b6eac9b9489a4a5a358faf7
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at common.ElementAction.run(ElementAction.java:112)
+	at Start.main(Start.java:21)
+[2019-08-13 10:07:44,881][INFO] - =========脚本启动=========
+[2019-08-13 10:07:44,882][INFO] - 开始执行脚本：1.xls
+[2019-08-13 10:07:45,696][INFO] - 启动chrome浏览器
+[2019-08-13 10:07:47,439][INFO] - =========脚本启动=========
+[2019-08-13 10:07:47,441][INFO] - 开始执行脚本：1.xls
+[2019-08-13 10:07:48,034][INFO] - 启动chrome浏览器
+[2019-08-13 10:07:54,851][INFO] - =========脚本启动=========
+[2019-08-13 10:07:54,852][INFO] - 开始执行脚本：1.xls
+[2019-08-13 10:07:55,136][INFO] - 启动chrome浏览器
+[2019-08-13 10:08:11,660][INFO] - =========脚本启动=========
+[2019-08-13 10:08:11,660][INFO] - 开始执行脚本：1.xls
+[2019-08-13 10:08:11,952][INFO] - 启动chrome浏览器
+[2019-08-13 10:08:14,799][INFO] - 1步开始
+[2019-08-13 10:08:15,605][INFO] - 2步开始
+[2019-08-13 10:08:16,234][INFO] - 3步开始
+[2019-08-13 10:08:18,274][INFO] - 4步开始
+[2019-08-13 10:08:18,290][ERROR] - 元素(linkText)'大数据产品'找不到
+[2019-08-13 10:08:18,346][ERROR] - 第4步发生异常
+[2019-08-13 10:08:18,348][ERROR] - 
+java.lang.NullPointerException
+	at java.util.Objects.requireNonNull(Objects.java:203)
+	at org.openqa.selenium.interactions.PointerInput$Origin.fromElement(PointerInput.java:222)
+	at org.openqa.selenium.interactions.Actions.moveInTicks(Actions.java:416)
+	at org.openqa.selenium.interactions.Actions.click(Actions.java:322)
+	at common.ElementAction.run(ElementAction.java:189)
+	at Start.main(Start.java:21)
+[2019-08-13 10:08:18,353][INFO] - 执行报错，关闭浏览器
+[2019-08-13 10:08:18,364][INFO] - 启动chrome浏览器
+[2019-08-13 10:09:36,383][INFO] - =========脚本启动=========
+[2019-08-13 10:09:36,386][INFO] - 开始执行脚本：1.xls
+[2019-08-13 10:09:40,177][ERROR] - Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'yaoshideMacBook-Pro.local', ip: 'fe80:0:0:0:1cb2:7390:184f:83b5%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '1.8.0_181'
+Driver info: driver.version: RemoteWebDriver
+org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'yaoshideMacBook-Pro.local', ip: 'fe80:0:0:0:1cb2:7390:184f:83b5%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '1.8.0_181'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:573)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:144)
+	at common.RemoteOpenBrowser.openBrowser(RemoteOpenBrowser.java:34)
+	at common.RemoteElementAction.run(RemoteElementAction.java:114)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Failed to connect to /172.16.0.75:4444
+	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:242)
+	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:160)
+	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
+	at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)
+	at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
+	at okhttp3.RealCall.execute(RealCall.java:77)
+	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:105)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	... 6 more
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
+	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:240)
+	... 28 more
+[2019-08-13 10:10:10,033][ERROR] - 第null步发生异常
+[2019-08-13 10:10:11,494][ERROR] - 
+java.lang.NullPointerException
+	at java.util.Objects.requireNonNull(Objects.java:203)
+	at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:106)
+	at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:45)
+	at common.RemoteElementAction.run(RemoteElementAction.java:117)
+	at java.lang.Thread.run(Thread.java:748)
+[2019-08-13 10:13:20,360][INFO] - =========脚本启动=========
+[2019-08-13 10:13:20,360][INFO] - 开始执行脚本：1.xls
+[2019-08-13 10:13:21,316][ERROR] - Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'yaoshideMacBook-Pro.local', ip: 'fe80:0:0:0:1cb2:7390:184f:83b5%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '1.8.0_181'
+Driver info: driver.version: RemoteWebDriver
+org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'yaoshideMacBook-Pro.local', ip: 'fe80:0:0:0:1cb2:7390:184f:83b5%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '1.8.0_181'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:573)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:144)
+	at common.RemoteOpenBrowser.openBrowser(RemoteOpenBrowser.java:34)
+	at common.RemoteElementAction.run(RemoteElementAction.java:114)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Failed to connect to /172.16.0.75:4444
+	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:242)
+	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:160)
+	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
+	at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)
+	at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
+	at okhttp3.RealCall.execute(RealCall.java:77)
+	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:105)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	... 6 more
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
+	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:240)
+	... 28 more
+[2019-08-13 10:13:21,330][ERROR] - 第null步发生异常
+[2019-08-13 10:13:21,330][ERROR] - 
+java.lang.NullPointerException
+	at java.util.Objects.requireNonNull(Objects.java:203)
+	at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:106)
+	at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:45)
+	at common.RemoteElementAction.run(RemoteElementAction.java:117)
+	at java.lang.Thread.run(Thread.java:748)
+[2019-08-13 10:14:30,015][INFO] - =========脚本启动=========
+[2019-08-13 10:14:30,016][INFO] - 开始执行脚本：1.xls
+[2019-08-13 10:14:34,016][INFO] - 1步开始
+[2019-08-13 10:14:34,727][INFO] - 2步开始
+[2019-08-13 10:15:31,031][INFO] - =========脚本启动=========
+[2019-08-13 10:15:31,034][INFO] - 开始执行脚本：1.xls
+[2019-08-13 10:18:19,354][INFO] - =========脚本启动=========
+[2019-08-13 10:18:19,357][INFO] - 开始执行脚本：1.xls
+[2019-08-13 10:19:19,303][INFO] - 1步开始
+[2019-08-13 10:19:20,411][INFO] - 2步开始
+[2019-08-13 10:19:21,440][INFO] - 3步开始
+[2019-08-13 10:19:34,468][INFO] - 4步开始
+[2019-08-13 10:19:46,268][INFO] - 5步开始
+[2019-08-13 10:19:48,927][INFO] - 7步开始
+[2019-08-13 10:19:49,869][INFO] - 8步开始
+[2019-08-13 10:19:51,563][INFO] - 9步开始
+[2019-08-13 10:19:52,518][INFO] - 94步开始
+[2019-08-13 10:19:53,547][INFO] - 95步开始
+[2019-08-13 10:19:54,526][INFO] - 96步开始
+[2019-08-13 10:19:55,491][INFO] - 97步开始
+[2019-08-13 10:19:56,398][INFO] - 98步开始
+[2019-08-13 10:19:57,350][INFO] - 99步开始
+[2019-08-13 10:20:01,895][INFO] - 截图保存到:/idea/UIAutoTest/pic/snap_1.xls_step99_2019-08-13 10:19:57.png
+[2019-08-13 10:20:02,724][INFO] - 100步开始
+[2019-08-13 10:20:03,225][INFO] - sleep:500毫秒
+[2019-08-13 10:20:04,018][INFO] - 101步开始
+[2019-08-13 10:20:05,022][INFO] - end步开始
+[2019-08-13 10:20:05,023][INFO] - Sheet1执行完成
+[2019-08-13 10:20:05,124][INFO] - 表格:Sheet1完成，关闭浏览器
+[2019-08-13 10:24:58,749][INFO] - =========脚本启动=========
+[2019-08-13 10:24:58,752][INFO] - 开始执行脚本：simpleBar.xls
+[2019-08-13 10:25:11,198][INFO] - =========脚本启动=========
+[2019-08-13 10:25:11,199][INFO] - 开始执行脚本：simpleBar.xls
+[2019-08-13 10:25:14,220][INFO] - 1步开始
+[2019-08-13 10:25:14,869][INFO] - 2步开始
+[2019-08-13 10:25:15,492][INFO] - 3步开始
+[2019-08-13 10:25:19,769][INFO] - 4步开始
+[2019-08-13 10:25:20,494][INFO] - 5步开始
+[2019-08-13 10:25:22,303][INFO] - 6步开始
+[2019-08-13 10:25:23,057][INFO] - 7步开始
+[2019-08-13 10:25:23,633][INFO] - 8步开始
+[2019-08-13 10:25:53,677][ERROR] - 元素(XPATH)'//span[text()='新建画布']'找不到
+[2019-08-13 10:25:53,734][ERROR] - 第8步发生异常
+[2019-08-13 10:25:53,735][ERROR] - 
+java.lang.NullPointerException
+	at java.util.Objects.requireNonNull(Objects.java:203)
+	at org.openqa.selenium.interactions.PointerInput$Origin.fromElement(PointerInput.java:222)
+	at org.openqa.selenium.interactions.Actions.moveInTicks(Actions.java:416)
+	at org.openqa.selenium.interactions.Actions.click(Actions.java:322)
+	at common.RemoteElementAction.run(RemoteElementAction.java:197)
+	at java.lang.Thread.run(Thread.java:748)
+[2019-08-13 10:25:53,738][INFO] - 执行报错，关闭浏览器
+[2019-08-13 10:25:53,744][INFO] - simpleBar.xls执行完成
+[2019-08-13 10:25:53,744][INFO] - =========脚本完成=========
+[2019-08-13 10:25:54,135][INFO] - 输出报告完成
+[2019-08-13 10:26:58,219][INFO] - =========脚本启动=========
+[2019-08-13 10:26:58,220][INFO] - 开始执行脚本：simpleBar.xls
+[2019-08-13 10:27:01,225][INFO] - 1步开始
+[2019-08-13 10:27:01,894][INFO] - 2步开始
+[2019-08-13 10:27:02,566][INFO] - 3步开始
+[2019-08-13 10:27:13,953][INFO] - 4步开始
+[2019-08-13 10:27:24,268][INFO] - 5步开始
+[2019-08-13 10:27:27,921][INFO] - 6步开始
+[2019-08-13 10:27:28,681][INFO] - 7步开始
+[2019-08-13 10:27:29,249][INFO] - 8步开始
+[2019-08-13 10:27:59,258][ERROR] - 元素(XPATH)'//span[text()='新建画布']'找不到
+[2019-08-13 10:27:59,314][ERROR] - 第8步发生异常
+[2019-08-13 10:27:59,315][ERROR] - 
+java.lang.NullPointerException
+	at java.util.Objects.requireNonNull(Objects.java:203)
+	at org.openqa.selenium.interactions.PointerInput$Origin.fromElement(PointerInput.java:222)
+	at org.openqa.selenium.interactions.Actions.moveInTicks(Actions.java:416)
+	at org.openqa.selenium.interactions.Actions.click(Actions.java:322)
+	at common.RemoteElementAction.run(RemoteElementAction.java:197)
+	at java.lang.Thread.run(Thread.java:748)
+[2019-08-13 10:27:59,318][INFO] - 执行报错，关闭浏览器
+[2019-08-13 10:27:59,323][INFO] - simpleBar.xls执行完成
+[2019-08-13 10:27:59,323][INFO] - =========脚本完成=========
+[2019-08-13 10:27:59,813][INFO] - 输出报告完成
+[2019-08-13 11:18:19,419][INFO] - =========脚本启动=========
+[2019-08-13 11:18:19,420][INFO] - 开始执行脚本：simpleBar.xls
+[2019-08-13 18:44:57,796][INFO] - =========脚本启动=========
+[2019-08-13 18:44:57,799][INFO] - 开始执行脚本：simpleBar.xls

@@ -1,0 +1,413 @@
+[2019-07-23 09:41:05,497][INFO] - =========脚本启动=========
+[2019-07-23 09:41:05,499][INFO] - 开始执行脚本：1.xls
+[2019-07-23 09:41:05,770][INFO] - 启动chrome浏览器
+[2019-07-23 09:41:08,973][INFO] - 1步开始
+[2019-07-23 09:41:09,663][INFO] - 2步开始
+[2019-07-23 09:41:40,067][ERROR] - 元素(ID)'password1'找不到
+[2019-07-23 09:41:40,163][ERROR] - 第2步发生异常
+[2019-07-23 09:41:40,164][ERROR] - 
+java.lang.NullPointerException
+	at common.ElementAction.action(ElementAction.java:181)
+	at Start.main(Start.java:8)
+[2019-07-23 09:41:40,166][INFO] - 执行报错，关闭浏览器
+[2019-07-23 09:41:40,179][INFO] - 启动chrome浏览器
+[2019-07-23 09:41:42,654][INFO] - 1步开始
+[2019-07-23 09:41:43,336][INFO] - 2步开始
+[2019-07-23 09:41:43,955][INFO] - 3步开始
+[2019-07-23 09:41:45,444][INFO] - 4步开始
+[2019-07-23 09:41:49,907][INFO] - 5步开始
+[2019-07-23 09:41:50,852][INFO] - 6步开始
+[2019-07-23 09:41:52,683][INFO] - 7步开始
+[2019-07-23 09:41:53,289][INFO] - 8步开始
+[2019-07-23 09:41:54,028][INFO] - 9步开始
+[2019-07-23 09:41:54,581][INFO] - 94步开始
+[2019-07-23 09:41:56,039][INFO] - 95步开始
+[2019-07-23 09:41:56,679][INFO] - 96步开始
+[2019-07-23 09:41:57,271][INFO] - 97步开始
+[2019-07-23 09:41:57,842][INFO] - 98步开始
+[2019-07-23 09:41:58,447][INFO] - 99步开始
+[2019-07-23 09:42:01,392][INFO] - 截图保存到:/idea/UIAutoTest/pic/snap_1.xls_step99_2019-07-23 09:41:58.png
+[2019-07-23 09:42:01,922][INFO] - 100步开始
+[2019-07-23 09:42:02,427][INFO] - sleep:500毫秒
+[2019-07-23 09:42:02,940][INFO] - 101步开始
+[2019-07-23 09:42:03,539][INFO] - end步开始
+[2019-07-23 09:42:03,539][INFO] - 测试用例执行完成
+[2019-07-23 09:42:03,793][INFO] - 表格:测试用例完成，关闭浏览器
+[2019-07-23 09:42:03,794][INFO] - 1.xls执行完成
+[2019-07-23 09:42:03,794][INFO] - 开始执行脚本：simpleBar.xls
+[2019-07-23 09:42:03,804][INFO] - 启动chrome浏览器
+[2019-07-23 09:42:05,979][INFO] - 1步开始
+[2019-07-23 09:42:06,618][INFO] - 2步开始
+[2019-07-23 09:42:07,216][INFO] - 3步开始
+[2019-07-23 09:42:10,469][INFO] - 4步开始
+[2019-07-23 09:42:11,174][INFO] - 5步开始
+[2019-07-23 09:42:11,840][INFO] - 6步开始
+[2019-07-23 09:42:13,445][INFO] - 7步开始
+[2019-07-23 09:42:14,007][INFO] - 8步开始
+[2019-07-23 09:42:14,666][INFO] - 9步开始
+[2019-07-23 09:42:15,200][INFO] - 10步开始
+[2019-07-23 09:42:16,075][INFO] - 11步开始
+[2019-07-23 09:42:16,742][INFO] - 12步开始
+[2019-07-23 09:42:17,389][INFO] - 13步开始
+[2019-07-23 09:42:18,083][INFO] - 14步开始
+[2019-07-23 09:42:48,133][ERROR] - 元素(XPATH)'//label[text()='选择已有数据库：']/../div/select'找不到
+[2019-07-23 09:42:48,363][ERROR] - 第14步发生异常
+[2019-07-23 09:42:48,363][ERROR] - 
+java.lang.NullPointerException
+	at org.openqa.selenium.support.ui.Select.<init>(Select.java:44)
+	at common.ElementAction.action(ElementAction.java:229)
+	at Start.main(Start.java:8)
+[2019-07-23 09:42:48,363][INFO] - 执行报错，关闭浏览器
+[2019-07-23 09:42:48,364][INFO] - simpleBar.xls执行完成
+[2019-07-23 09:42:48,364][INFO] - 开始执行脚本：horBar.xls
+[2019-07-23 09:42:48,368][INFO] - 启动chrome浏览器
+[2019-07-23 09:42:50,384][INFO] - 1步开始
+[2019-07-23 09:42:51,077][INFO] - 2步开始
+[2019-07-23 09:42:51,681][INFO] - 3步开始
+[2019-07-23 09:42:55,859][INFO] - 4步开始
+[2019-07-23 09:42:56,884][INFO] - 5步开始
+[2019-07-23 09:42:57,808][INFO] - 6步开始
+[2019-07-23 09:42:59,856][INFO] - 7步开始
+[2019-07-23 09:43:00,493][INFO] - 8步开始
+[2019-07-23 09:43:01,248][INFO] - 9步开始
+[2019-07-23 09:43:01,796][INFO] - 10步开始
+[2019-07-23 09:43:02,839][INFO] - 11步开始
+[2019-07-23 09:43:03,515][INFO] - 12步开始
+[2019-07-23 09:43:04,165][INFO] - 13步开始
+[2019-07-23 09:43:04,829][INFO] - 14步开始
+[2019-07-23 09:43:34,909][ERROR] - 元素(XPATH)'//label[text()='选择已有数据库：']/../div/select'找不到
+[2019-07-23 09:43:35,208][ERROR] - 第14步发生异常
+[2019-07-23 09:43:35,208][ERROR] - 
+java.lang.NullPointerException
+	at org.openqa.selenium.support.ui.Select.<init>(Select.java:44)
+	at common.ElementAction.action(ElementAction.java:229)
+	at Start.main(Start.java:8)
+[2019-07-23 09:43:35,209][INFO] - 执行报错，关闭浏览器
+[2019-07-23 09:43:35,214][ERROR] - 第14步发生异常
+[2019-07-23 09:43:35,214][ERROR] - For input string: "groName"
+java.lang.NumberFormatException: For input string: "groName"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Integer.valueOf(Integer.java:766)
+	at common.ElementAction.action(ElementAction.java:102)
+	at Start.main(Start.java:8)
+[2019-07-23 09:43:35,214][INFO] - 执行报错，关闭浏览器
+[2019-07-23 09:43:35,217][ERROR] - 
+[2019-07-23 09:43:35,217][ERROR] - 第14步发生异常
+[2019-07-23 09:43:35,217][ERROR] - For input string: "groName"
+java.lang.NumberFormatException: For input string: "groName"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Integer.valueOf(Integer.java:766)
+	at common.ElementAction.action(ElementAction.java:102)
+	at Start.main(Start.java:8)
+[2019-07-23 09:43:35,218][INFO] - 执行报错，关闭浏览器
+[2019-07-23 09:43:35,218][INFO] - horBar.xls执行完成
+[2019-07-23 09:43:35,218][INFO] - 开始执行脚本：filletedBar.xls
+[2019-07-23 09:43:35,227][INFO] - 启动chrome浏览器
+[2019-07-23 09:43:37,498][INFO] - 1步开始
+[2019-07-23 09:43:38,227][INFO] - 2步开始
+[2019-07-23 09:43:38,851][INFO] - 3步开始
+[2019-07-23 09:43:42,957][INFO] - 4步开始
+[2019-07-23 09:43:44,026][INFO] - 5步开始
+[2019-07-23 09:43:44,714][INFO] - 6步开始
+[2019-07-23 09:43:46,621][INFO] - 7步开始
+[2019-07-23 09:43:47,214][INFO] - 8步开始
+[2019-07-23 09:43:47,977][INFO] - 9步开始
+[2019-07-23 09:43:48,531][INFO] - 10步开始
+[2019-07-23 09:43:49,557][INFO] - 11步开始
+[2019-07-23 09:43:50,232][INFO] - 12步开始
+[2019-07-23 09:43:50,876][INFO] - 13步开始
+[2019-07-23 09:43:51,549][INFO] - 14步开始
+[2019-07-23 09:44:21,637][ERROR] - 元素(XPATH)'//label[text()='选择已有数据库：']/../div/select'找不到
+[2019-07-23 09:44:21,936][ERROR] - 第14步发生异常
+[2019-07-23 09:44:21,936][ERROR] - 
+java.lang.NullPointerException
+	at org.openqa.selenium.support.ui.Select.<init>(Select.java:44)
+	at common.ElementAction.action(ElementAction.java:229)
+	at Start.main(Start.java:8)
+[2019-07-23 09:44:21,937][INFO] - 执行报错，关闭浏览器
+[2019-07-23 09:44:21,942][ERROR] - 第14步发生异常
+[2019-07-23 09:44:21,942][ERROR] - For input string: "groName"
+java.lang.NumberFormatException: For input string: "groName"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Integer.valueOf(Integer.java:766)
+	at common.ElementAction.action(ElementAction.java:102)
+	at Start.main(Start.java:8)
+[2019-07-23 09:44:21,942][INFO] - 执行报错，关闭浏览器
+[2019-07-23 09:44:21,944][ERROR] - 
+[2019-07-23 09:44:21,945][ERROR] - 第14步发生异常
+[2019-07-23 09:44:21,945][ERROR] - For input string: "groName"
+java.lang.NumberFormatException: For input string: "groName"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Integer.valueOf(Integer.java:766)
+	at common.ElementAction.action(ElementAction.java:102)
+	at Start.main(Start.java:8)
+[2019-07-23 09:44:21,945][INFO] - 执行报错，关闭浏览器
+[2019-07-23 09:44:21,945][INFO] - filletedBar.xls执行完成
+[2019-07-23 09:44:21,945][INFO] - =========脚本完成=========
+[2019-07-23 09:44:22,219][INFO] - 输出报告完成
+[2019-07-23 11:44:59,094][INFO] - =========脚本启动=========
+[2019-07-23 11:44:59,094][INFO] - 开始执行脚本：1.xls
+[2019-07-23 11:44:59,429][INFO] - 启动chrome浏览器
+[2019-07-23 11:45:02,160][INFO] - 1步开始
+[2019-07-23 11:45:02,819][INFO] - 2步开始
+[2019-07-23 11:45:04,983][ERROR] - 元素(ID)'password1'找不到
+[2019-07-23 11:45:05,027][ERROR] - 第2步发生异常
+[2019-07-23 11:45:05,029][ERROR] - 
+java.lang.NullPointerException
+	at common.ElementAction.action(ElementAction.java:181)
+	at Start.main(Start.java:8)
+[2019-07-23 11:45:05,032][INFO] - 执行报错，关闭浏览器
+[2019-07-23 11:45:05,047][INFO] - 启动chrome浏览器
+[2019-07-23 11:45:07,901][INFO] - 1步开始
+[2019-07-23 11:45:08,061][ERROR] - 第1步发生异常
+[2019-07-23 11:45:08,064][ERROR] - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=75.0.3770.142)
+  (Driver info: chromedriver=2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'yaoshideMacBook-Pro.local', ip: 'fe80:0:0:0:c30:8ff8:c066:4d10%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565386 (45a059dc425e08..., userDataDir: /var/folders/23/l441s28j7gj...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 75.0.3770.142, webStorageEnabled: true}
+Session ID: 7b66649dc53ab78aaeecb64758e058dc
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=75.0.3770.142)
+  (Driver info: chromedriver=2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'yaoshideMacBook-Pro.local', ip: 'fe80:0:0:0:c30:8ff8:c066:4d10%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565386 (45a059dc425e08..., userDataDir: /var/folders/23/l441s28j7gj...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 75.0.3770.142, webStorageEnabled: true}
+Session ID: 7b66649dc53ab78aaeecb64758e058dc
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at common.ElementAction.action(ElementAction.java:182)
+	at Start.main(Start.java:8)
+[2019-07-23 11:45:08,183][INFO] - 执行报错，关闭浏览器
+[2019-07-23 11:45:08,184][INFO] - 1.xls执行完成
+[2019-07-23 11:45:08,184][INFO] - 开始执行脚本：simpleBar.xls
+[2019-07-23 11:45:08,211][INFO] - 启动chrome浏览器
+[2019-07-23 11:45:11,074][INFO] - 1步开始
+[2019-07-23 11:45:11,148][ERROR] - 元素(ID)'username'找不到
+[2019-07-23 11:45:11,268][ERROR] - 第1步发生异常
+[2019-07-23 11:45:11,268][ERROR] - 
+java.lang.NullPointerException
+	at common.ElementAction.action(ElementAction.java:181)
+	at Start.main(Start.java:8)
+[2019-07-23 11:45:11,269][INFO] - 执行报错，关闭浏览器
+[2019-07-23 11:45:11,270][INFO] - simpleBar.xls执行完成
+[2019-07-23 11:45:11,270][INFO] - 开始执行脚本：horBar.xls
+[2019-07-23 11:45:11,282][INFO] - 启动chrome浏览器
+[2019-07-23 11:45:29,459][INFO] - =========脚本启动=========
+[2019-07-23 11:45:29,460][INFO] - 开始执行脚本：1.xls
+[2019-07-23 11:45:29,826][INFO] - 启动chrome浏览器
+[2019-07-23 11:45:32,688][INFO] - 1步开始
+[2019-07-23 11:45:33,356][INFO] - 2步开始
+[2019-07-23 11:46:03,416][ERROR] - 元素(ID)'password1'找不到
+[2019-07-23 11:46:03,512][ERROR] - 第2步发生异常
+[2019-07-23 11:46:03,514][ERROR] - 
+java.lang.NullPointerException
+	at common.ElementAction.action(ElementAction.java:181)
+	at Start.main(Start.java:8)
+[2019-07-23 11:46:03,518][INFO] - 执行报错，关闭浏览器
+[2019-07-23 11:46:03,533][INFO] - 启动chrome浏览器
+[2019-07-23 11:46:05,713][INFO] - 1步开始
+[2019-07-23 11:46:06,382][INFO] - 2步开始
+[2019-07-23 11:46:07,018][INFO] - 3步开始
+[2019-07-23 11:46:18,651][INFO] - 4步开始
+[2019-07-23 11:46:23,488][INFO] - 5步开始
+[2019-07-23 11:46:24,179][INFO] - 6步开始
+[2019-07-23 11:46:26,310][INFO] - 7步开始
+[2019-07-23 11:46:26,881][INFO] - 8步开始
+[2019-07-23 11:46:27,561][INFO] - 9步开始
+[2019-07-23 11:46:28,114][INFO] - 94步开始
+[2019-07-23 11:46:29,046][INFO] - 95步开始
+[2019-07-23 11:46:29,691][INFO] - 96步开始
+[2019-07-23 11:46:30,290][INFO] - 97步开始
+[2019-07-23 11:46:30,860][INFO] - 98步开始
+[2019-07-23 11:46:31,449][INFO] - 99步开始
+[2019-07-23 11:46:34,272][INFO] - 截图保存到:/idea/UIAutoTest/pic/snap_1.xls_step99_2019-07-23 11:46:31.png
+[2019-07-23 11:46:34,802][INFO] - 100步开始
+[2019-07-23 11:46:35,307][INFO] - sleep:500毫秒
+[2019-07-23 11:46:35,819][INFO] - 101步开始
+[2019-07-23 11:46:36,427][INFO] - end步开始
+[2019-07-23 11:46:36,427][INFO] - 测试用例执行完成
+[2019-07-23 11:46:36,641][INFO] - 表格:测试用例完成，关闭浏览器
+[2019-07-23 11:46:36,642][INFO] - 1.xls执行完成
+[2019-07-23 11:46:36,642][INFO] - 开始执行脚本：simpleBar.xls
+[2019-07-23 11:46:36,722][INFO] - 启动chrome浏览器
+[2019-07-23 11:46:39,631][INFO] - 1步开始
+[2019-07-23 11:46:40,310][INFO] - 2步开始
+[2019-07-23 11:46:40,964][INFO] - 3步开始
+[2019-07-23 11:46:42,146][INFO] - 4步开始
+[2019-07-23 11:46:46,586][INFO] - 5步开始
+[2019-07-23 11:46:48,646][INFO] - 6步开始
+[2019-07-23 11:46:49,790][INFO] - 7步开始
+[2019-07-23 11:46:50,394][INFO] - 8步开始
+[2019-07-23 11:47:03,698][INFO] - 9步开始
+[2019-07-23 11:47:04,236][INFO] - 10步开始
+[2019-07-23 11:47:05,516][INFO] - 11步开始
+[2019-07-23 11:47:21,690][INFO] - 12步开始
+[2019-07-23 11:47:32,677][INFO] - 13步开始
+[2019-07-23 11:47:33,450][INFO] - 14步开始
+[2019-07-23 11:49:37,380][INFO] - =========脚本启动=========
+[2019-07-23 11:49:37,381][INFO] - 开始执行脚本：1.xls
+[2019-07-23 11:49:37,810][INFO] - 启动chrome浏览器
+[2019-07-23 11:49:40,814][INFO] - 1步开始
+[2019-07-23 11:49:41,502][INFO] - 2步开始
+[2019-07-23 11:50:11,978][ERROR] - 元素(ID)'password1'找不到
+[2019-07-23 11:50:12,086][ERROR] - 第2步发生异常
+[2019-07-23 11:50:12,087][ERROR] - 
+java.lang.NullPointerException
+	at common.ElementAction.action(ElementAction.java:184)
+	at Start.main(Start.java:8)
+[2019-07-23 11:50:12,089][INFO] - 执行报错，关闭浏览器
+[2019-07-23 11:50:12,109][INFO] - 启动chrome浏览器
+[2019-07-23 11:50:14,808][INFO] - 1步开始
+[2019-07-23 11:50:15,508][INFO] - 2步开始
+[2019-07-23 11:50:16,255][INFO] - 3步开始
+[2019-07-23 11:50:17,793][INFO] - 4步开始
+[2019-07-23 11:50:23,504][INFO] - 5步开始
+[2019-07-23 11:50:24,284][INFO] - 6步开始
+[2019-07-23 11:50:26,908][INFO] - 7步开始
+[2019-07-23 11:50:27,640][INFO] - 8步开始
+[2019-07-23 11:50:28,612][INFO] - 9步开始
+[2019-07-23 11:50:29,162][INFO] - 94步开始
+[2019-07-23 11:50:30,657][INFO] - 95步开始
+[2019-07-23 11:50:31,291][INFO] - 96步开始
+[2019-07-23 11:50:31,883][INFO] - 97步开始
+[2019-07-23 11:50:32,462][INFO] - 98步开始
+[2019-07-23 11:50:33,067][INFO] - 99步开始
+[2019-07-23 11:50:35,927][INFO] - 截图保存到:/idea/UIAutoTest/pic/snap_1.xls_step99_2019-07-23 11:50:33.png
+[2019-07-23 11:50:36,454][INFO] - 100步开始
+[2019-07-23 11:50:36,958][INFO] - sleep:500毫秒
+[2019-07-23 11:50:37,470][INFO] - 101步开始
+[2019-07-23 11:50:38,076][INFO] - end步开始
+[2019-07-23 11:50:38,076][INFO] - 测试用例执行完成
+[2019-07-23 11:50:38,298][INFO] - 表格:测试用例完成，关闭浏览器
+[2019-07-23 11:50:38,299][INFO] - 1.xls执行完成
+[2019-07-23 11:50:38,299][INFO] - 开始执行脚本：simpleBar.xls
+[2019-07-23 11:50:38,324][INFO] - 启动chrome浏览器
+[2019-07-23 11:50:40,897][INFO] - 1步开始
+[2019-07-23 11:50:41,534][INFO] - 2步开始
+[2019-07-23 11:50:42,141][INFO] - 3步开始
+[2019-07-23 11:50:42,832][INFO] - 4步开始
+[2019-07-23 11:51:13,340][ERROR] - 元素(linkText)'大数据产品'找不到
+[2019-07-23 11:51:13,444][ERROR] - 第4步发生异常
+[2019-07-23 11:51:13,444][ERROR] - 
+java.lang.NullPointerException
+	at java.util.Objects.requireNonNull(Objects.java:203)
+	at org.openqa.selenium.interactions.PointerInput$Origin.fromElement(PointerInput.java:222)
+	at org.openqa.selenium.interactions.Actions.moveInTicks(Actions.java:416)
+	at org.openqa.selenium.interactions.Actions.click(Actions.java:322)
+	at common.ElementAction.action(ElementAction.java:189)
+	at Start.main(Start.java:8)
+[2019-07-23 11:51:13,445][INFO] - 执行报错，关闭浏览器
+[2019-07-23 11:51:13,446][INFO] - simpleBar.xls执行完成
+[2019-07-23 11:51:13,446][INFO] - 开始执行脚本：horBar.xls
+[2019-07-23 11:51:13,463][INFO] - 启动chrome浏览器
+[2019-07-23 11:51:15,506][INFO] - 1步开始
+[2019-07-23 11:51:16,318][INFO] - 2步开始
+[2019-07-23 11:51:16,952][INFO] - 3步开始
+[2019-07-23 11:51:21,005][INFO] - 4步开始
+[2019-07-23 11:51:22,573][INFO] - 5步开始
+[2019-07-23 11:51:23,309][INFO] - 6步开始
+[2019-07-23 11:51:25,306][INFO] - 7步开始
+[2019-07-23 11:51:25,890][INFO] - 8步开始
+[2019-07-23 11:51:26,698][INFO] - 9步开始
+[2019-07-23 11:51:27,257][INFO] - 10步开始
+[2019-07-23 11:51:28,659][INFO] - 11步开始
+[2019-07-23 11:51:29,363][INFO] - 12步开始
+[2019-07-23 11:51:30,009][INFO] - 13步开始
+[2019-07-23 11:51:30,704][INFO] - 14步开始
+[2019-07-23 11:52:00,838][ERROR] - 元素(XPATH)'//label[text()='选择已有数据库：']/../div/select'找不到
+[2019-07-23 11:52:01,186][ERROR] - 第14步发生异常
+[2019-07-23 11:52:01,187][ERROR] - 
+java.lang.NullPointerException
+	at org.openqa.selenium.support.ui.Select.<init>(Select.java:44)
+	at common.ElementAction.action(ElementAction.java:232)
+	at Start.main(Start.java:8)
+[2019-07-23 11:52:01,187][INFO] - 执行报错，关闭浏览器
+[2019-07-23 11:52:01,192][ERROR] - 第14步发生异常
+[2019-07-23 11:52:01,192][ERROR] - For input string: "groName"
+java.lang.NumberFormatException: For input string: "groName"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Integer.valueOf(Integer.java:766)
+	at common.ElementAction.action(ElementAction.java:105)
+	at Start.main(Start.java:8)
+[2019-07-23 11:52:01,192][INFO] - 执行报错，关闭浏览器
+[2019-07-23 11:52:01,196][ERROR] - 
+[2019-07-23 11:52:01,197][ERROR] - 第14步发生异常
+[2019-07-23 11:52:01,197][ERROR] - For input string: "groName"
+java.lang.NumberFormatException: For input string: "groName"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Integer.valueOf(Integer.java:766)
+	at common.ElementAction.action(ElementAction.java:105)
+	at Start.main(Start.java:8)
+[2019-07-23 11:52:01,197][INFO] - 执行报错，关闭浏览器
+[2019-07-23 11:52:01,197][INFO] - horBar.xls执行完成
+[2019-07-23 11:52:01,197][INFO] - 开始执行脚本：filletedBar.xls
+[2019-07-23 11:52:01,209][INFO] - 启动chrome浏览器
+[2019-07-23 11:52:03,231][INFO] - 1步开始
+[2019-07-23 11:52:03,906][INFO] - 2步开始
+[2019-07-23 11:52:04,539][INFO] - 3步开始
+[2019-07-23 11:52:05,733][INFO] - 4步开始
+[2019-07-23 11:52:09,565][INFO] - 5步开始
+[2019-07-23 11:52:10,322][INFO] - 6步开始
+[2019-07-23 11:52:12,377][INFO] - 7步开始
+[2019-07-23 11:52:12,990][INFO] - 8步开始
+[2019-07-23 11:52:13,720][INFO] - 9步开始
+[2019-07-23 11:52:14,271][INFO] - 10步开始
+[2019-07-23 11:52:15,404][INFO] - 11步开始
+[2019-07-23 11:52:16,072][INFO] - 12步开始
+[2019-07-23 11:52:16,715][INFO] - 13步开始
+[2019-07-23 11:52:17,367][INFO] - 14步开始
+[2019-07-23 11:52:47,498][ERROR] - 元素(XPATH)'//label[text()='选择已有数据库：']/../div/select'找不到
+[2019-07-23 11:52:47,743][ERROR] - 第14步发生异常
+[2019-07-23 11:52:47,743][ERROR] - 
+java.lang.NullPointerException
+	at org.openqa.selenium.support.ui.Select.<init>(Select.java:44)
+	at common.ElementAction.action(ElementAction.java:232)
+	at Start.main(Start.java:8)
+[2019-07-23 11:52:47,744][INFO] - 执行报错，关闭浏览器
+[2019-07-23 11:52:47,747][ERROR] - 第14步发生异常
+[2019-07-23 11:52:47,748][ERROR] - For input string: "groName"
+java.lang.NumberFormatException: For input string: "groName"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Integer.valueOf(Integer.java:766)
+	at common.ElementAction.action(ElementAction.java:105)
+	at Start.main(Start.java:8)
+[2019-07-23 11:52:47,748][INFO] - 执行报错，关闭浏览器
+[2019-07-23 11:52:47,751][ERROR] - 
+[2019-07-23 11:52:47,751][ERROR] - 第14步发生异常
+[2019-07-23 11:52:47,751][ERROR] - For input string: "groName"
+java.lang.NumberFormatException: For input string: "groName"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Integer.valueOf(Integer.java:766)
+	at common.ElementAction.action(ElementAction.java:105)
+	at Start.main(Start.java:8)
+[2019-07-23 11:52:47,751][INFO] - 执行报错，关闭浏览器
+[2019-07-23 11:52:47,751][INFO] - filletedBar.xls执行完成
+[2019-07-23 11:52:47,751][INFO] - =========脚本完成=========
+[2019-07-23 11:52:48,191][INFO] - 输出报告完成

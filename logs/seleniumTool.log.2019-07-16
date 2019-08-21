@@ -1,0 +1,309 @@
+[2019-07-16 17:04:40,773][INFO] - =========脚本启动=========
+[2019-07-16 17:04:40,775][INFO] - 开始执行脚本：1.xls
+[2019-07-16 17:04:41,231][INFO] - 启动chrome浏览器
+[2019-07-16 17:04:44,810][INFO] - 1步开始
+[2019-07-16 17:04:45,482][INFO] - 2步开始
+[2019-07-16 17:05:15,952][ERROR] - 元素(ID)'password1'找不到
+[2019-07-16 17:05:16,071][ERROR] - 第2步发生异常。
+[2019-07-16 17:05:16,072][ERROR] - 
+[2019-07-16 17:05:16,072][INFO] - 执行报错，关闭浏览器
+[2019-07-16 17:05:16,072][INFO] - 1.xls执行完成
+[2019-07-16 17:05:16,076][INFO] - 启动chrome浏览器
+[2019-07-16 17:05:19,451][INFO] - 1步开始
+[2019-07-16 17:05:20,156][INFO] - 2步开始
+[2019-07-16 17:05:20,796][INFO] - 3步开始
+[2019-07-16 17:05:32,591][INFO] - 4步开始
+[2019-07-16 17:05:45,141][INFO] - 5步开始
+[2019-07-16 17:05:45,839][INFO] - 6步开始
+[2019-07-16 17:05:54,847][INFO] - 7步开始
+[2019-07-16 17:05:55,422][INFO] - 8步开始
+[2019-07-16 17:05:59,380][INFO] - 9步开始
+[2019-07-16 17:05:59,928][INFO] - 94步开始
+[2019-07-16 17:06:14,389][INFO] - 95步开始
+[2019-07-16 17:06:15,031][INFO] - 96步开始
+[2019-07-16 17:06:15,746][INFO] - 97步开始
+[2019-07-16 17:06:16,338][INFO] - 98步开始
+[2019-07-16 17:06:16,938][INFO] - 99步开始
+[2019-07-16 17:06:20,274][INFO] - 截图保存到:/idea/UIAutoTest/pic/snap_1.xls_step99_2019-07-16 17:06:17.png
+[2019-07-16 17:06:20,800][INFO] - 100步开始
+[2019-07-16 17:06:21,303][INFO] - sleep:500毫秒
+[2019-07-16 17:06:21,816][INFO] - 101步开始
+[2019-07-16 17:06:22,422][INFO] - end步开始
+[2019-07-16 17:06:22,422][INFO] - Sheet2执行完成
+[2019-07-16 17:06:22,675][INFO] - 表格:Sheet2完成，关闭浏览器
+[2019-07-16 17:06:22,675][INFO] - 1.xls执行完成
+[2019-07-16 17:06:22,675][INFO] - =========脚本完成=========
+[2019-07-16 17:12:28,529][INFO] - =========脚本启动=========
+[2019-07-16 17:12:28,530][INFO] - 开始执行脚本：1.xls
+[2019-07-16 17:12:28,880][INFO] - 启动chrome浏览器
+[2019-07-16 17:12:31,840][INFO] - 1步开始
+[2019-07-16 17:12:32,525][INFO] - 2步开始
+[2019-07-16 17:13:03,014][ERROR] - 元素(ID)'password1'找不到
+[2019-07-16 17:13:03,095][ERROR] - 第2步发生异常。
+[2019-07-16 17:13:03,095][ERROR] - 
+[2019-07-16 17:13:03,096][INFO] - 执行报错，关闭浏览器
+[2019-07-16 17:13:03,425][INFO] - 1.xls执行完成
+[2019-07-16 17:13:03,433][INFO] - 启动chrome浏览器
+[2019-07-16 17:13:05,899][INFO] - 1步开始
+[2019-07-16 17:13:06,577][INFO] - 2步开始
+[2019-07-16 17:13:07,216][INFO] - 3步开始
+[2019-07-16 17:13:18,660][INFO] - 4步开始
+[2019-07-16 17:13:21,449][INFO] - 5步开始
+[2019-07-16 17:13:22,147][INFO] - 6步开始
+[2019-07-16 17:13:23,853][INFO] - 7步开始
+[2019-07-16 17:13:24,426][INFO] - 8步开始
+[2019-07-16 17:13:25,120][INFO] - 9步开始
+[2019-07-16 17:13:25,766][INFO] - 94步开始
+[2019-07-16 17:13:26,520][INFO] - 95步开始
+[2019-07-16 17:13:27,161][INFO] - 96步开始
+[2019-07-16 17:13:27,748][INFO] - 97步开始
+[2019-07-16 17:13:28,322][INFO] - 98步开始
+[2019-07-16 17:13:28,924][INFO] - 99步开始
+[2019-07-16 17:13:31,757][INFO] - 截图保存到:/idea/UIAutoTest/pic/snap_1.xls_step99_2019-07-16 17:13:29.png
+[2019-07-16 17:13:32,280][INFO] - 100步开始
+[2019-07-16 17:13:32,787][INFO] - sleep:500毫秒
+[2019-07-16 17:13:33,296][INFO] - 101步开始
+[2019-07-16 17:13:33,913][INFO] - end步开始
+[2019-07-16 17:13:33,913][INFO] - Sheet2执行完成
+[2019-07-16 17:13:34,174][INFO] - 表格:Sheet2完成，关闭浏览器
+[2019-07-16 17:13:34,262][INFO] - 1.xls执行完成
+[2019-07-16 17:13:34,262][INFO] - =========脚本完成=========
+[2019-07-16 17:14:55,145][INFO] - =========脚本启动=========
+[2019-07-16 17:14:55,147][INFO] - 开始执行脚本：1.xls
+[2019-07-16 17:14:55,621][INFO] - 启动chrome浏览器
+[2019-07-16 17:14:58,655][INFO] - 1步开始
+[2019-07-16 17:14:59,336][INFO] - 2步开始
+[2019-07-16 17:15:29,387][ERROR] - 元素(ID)'password1'找不到
+[2019-07-16 17:15:29,474][ERROR] - 第2步发生异常。
+[2019-07-16 17:15:29,474][ERROR] - 
+[2019-07-16 17:15:29,474][INFO] - 执行报错，关闭浏览器
+[2019-07-16 17:15:46,431][INFO] - =========脚本启动=========
+[2019-07-16 17:15:46,434][INFO] - 开始执行脚本：1.xls
+[2019-07-16 17:15:47,504][INFO] - 启动chrome浏览器
+[2019-07-16 17:15:53,076][INFO] - 1步开始
+[2019-07-16 17:15:53,820][INFO] - 2步开始
+[2019-07-16 17:16:24,318][ERROR] - 元素(ID)'password1'找不到
+[2019-07-16 17:16:24,404][ERROR] - 第2步发生异常。
+[2019-07-16 17:16:24,405][ERROR] - 
+java.lang.NullPointerException
+	at common.ElementAction.action(ElementAction.java:169)
+	at Start.main(Start.java:8)
+[2019-07-16 17:16:24,407][INFO] - 执行报错，关闭浏览器
+[2019-07-16 17:16:24,693][INFO] - 1.xls执行完成
+[2019-07-16 17:16:24,696][INFO] - 启动chrome浏览器
+[2019-07-16 17:16:26,847][INFO] - 1步开始
+[2019-07-16 17:16:27,509][INFO] - 2步开始
+[2019-07-16 17:16:28,150][INFO] - 3步开始
+[2019-07-16 17:16:29,160][INFO] - 4步开始
+[2019-07-16 17:16:29,185][ERROR] - 元素(linkText)'大数据产品'找不到
+[2019-07-16 17:16:29,266][ERROR] - 第4步发生异常。
+[2019-07-16 17:16:29,266][ERROR] - 
+java.lang.NullPointerException
+	at java.util.Objects.requireNonNull(Objects.java:203)
+	at org.openqa.selenium.interactions.PointerInput$Origin.fromElement(PointerInput.java:222)
+	at org.openqa.selenium.interactions.Actions.moveInTicks(Actions.java:416)
+	at org.openqa.selenium.interactions.Actions.click(Actions.java:322)
+	at common.ElementAction.action(ElementAction.java:174)
+	at Start.main(Start.java:8)
+[2019-07-16 17:16:29,266][INFO] - 执行报错，关闭浏览器
+[2019-07-16 17:16:29,426][INFO] - 1.xls执行完成
+[2019-07-16 17:16:29,427][INFO] - =========脚本完成=========
+[2019-07-16 17:18:06,518][INFO] - =========脚本启动=========
+[2019-07-16 17:18:06,519][INFO] - 开始执行脚本：1.xls
+[2019-07-16 17:18:06,833][INFO] - 启动chrome浏览器
+[2019-07-16 17:18:09,693][INFO] - 1步开始
+[2019-07-16 17:18:10,362][INFO] - 2步开始
+[2019-07-16 17:18:40,822][ERROR] - 元素(ID)'password1'找不到
+[2019-07-16 17:18:40,926][ERROR] - 第2步发生异常
+[2019-07-16 17:18:40,927][ERROR] - 
+java.lang.NullPointerException
+	at common.ElementAction.action(ElementAction.java:169)
+	at Start.main(Start.java:8)
+[2019-07-16 17:18:40,929][INFO] - 执行报错，关闭浏览器
+[2019-07-16 17:18:41,342][INFO] - 1.xls执行完成
+[2019-07-16 17:18:41,347][INFO] - 启动chrome浏览器
+[2019-07-16 17:18:43,452][INFO] - 1步开始
+[2019-07-16 17:18:44,140][INFO] - 2步开始
+[2019-07-16 17:18:44,784][INFO] - 3步开始
+[2019-07-16 17:18:49,278][INFO] - 4步开始
+[2019-07-16 17:18:50,342][INFO] - 5步开始
+[2019-07-16 17:18:51,084][INFO] - 6步开始
+[2019-07-16 17:18:53,039][INFO] - 7步开始
+[2019-07-16 17:18:53,693][INFO] - 8步开始
+[2019-07-16 17:18:54,406][INFO] - 9步开始
+[2019-07-16 17:18:55,133][INFO] - 94步开始
+[2019-07-16 17:18:56,332][INFO] - 95步开始
+[2019-07-16 17:18:56,988][INFO] - 96步开始
+[2019-07-16 17:18:57,578][INFO] - 97步开始
+[2019-07-16 17:18:58,144][INFO] - 98步开始
+[2019-07-16 17:18:58,740][INFO] - 99步开始
+[2019-07-16 17:19:01,555][INFO] - 截图保存到:/idea/UIAutoTest/pic/snap_1.xls_step99_2019-07-16 17:18:58.png
+[2019-07-16 17:19:02,078][INFO] - 100步开始
+[2019-07-16 17:19:02,593][INFO] - sleep:500毫秒
+[2019-07-16 17:19:03,104][INFO] - 101步开始
+[2019-07-16 17:19:03,702][INFO] - end步开始
+[2019-07-16 17:19:03,702][INFO] - Sheet2执行完成
+[2019-07-16 17:19:03,950][INFO] - 表格:Sheet2完成，关闭浏览器
+[2019-07-16 17:19:04,014][INFO] - 1.xls执行完成
+[2019-07-16 17:19:04,014][INFO] - =========脚本完成=========
+[2019-07-16 17:20:10,939][INFO] - =========脚本启动=========
+[2019-07-16 17:20:10,940][INFO] - 开始执行脚本：1.xls
+[2019-07-16 17:20:11,229][INFO] - 启动chrome浏览器
+[2019-07-16 17:20:13,997][INFO] - 1步开始
+[2019-07-16 17:20:14,662][INFO] - 2步开始
+[2019-07-16 17:20:45,123][ERROR] - 元素(ID)'password1'找不到
+[2019-07-16 17:20:45,222][ERROR] - 第2步发生异常
+[2019-07-16 17:20:45,224][ERROR] - 
+java.lang.NullPointerException
+	at common.ElementAction.action(ElementAction.java:169)
+	at Start.main(Start.java:8)
+[2019-07-16 17:20:45,226][INFO] - 执行报错，关闭浏览器
+[2019-07-16 17:20:45,643][INFO] - 1.xls执行完成
+[2019-07-16 17:20:45,655][INFO] - 启动chrome浏览器
+[2019-07-16 17:20:47,894][INFO] - 1步开始
+[2019-07-16 17:20:48,575][INFO] - 2步开始
+[2019-07-16 17:20:49,223][INFO] - 3步开始
+[2019-07-16 17:20:54,273][INFO] - 4步开始
+[2019-07-16 17:20:55,269][INFO] - 5步开始
+[2019-07-16 17:20:56,035][INFO] - 6步开始
+[2019-07-16 17:20:58,061][INFO] - 7步开始
+[2019-07-16 17:20:58,702][INFO] - 8步开始
+[2019-07-16 17:20:59,454][INFO] - 9步开始
+[2019-07-16 17:21:00,186][INFO] - 94步开始
+[2019-07-16 17:21:01,398][INFO] - 95步开始
+[2019-07-16 17:21:02,085][INFO] - 96步开始
+[2019-07-16 17:21:02,675][INFO] - 97步开始
+[2019-07-16 17:21:03,244][INFO] - 98步开始
+[2019-07-16 17:21:03,848][INFO] - 99步开始
+[2019-07-16 17:21:06,677][INFO] - 截图保存到:/idea/UIAutoTest/pic/snap_1.xls_step99_2019-07-16 17:21:03.png
+[2019-07-16 17:21:07,195][INFO] - 100步开始
+[2019-07-16 17:21:07,697][INFO] - sleep:500毫秒
+[2019-07-16 17:21:08,206][INFO] - 101步开始
+[2019-07-16 17:21:08,824][INFO] - end步开始
+[2019-07-16 17:21:08,825][INFO] - Sheet2执行完成
+[2019-07-16 17:21:09,080][INFO] - 表格:Sheet2完成，关闭浏览器
+[2019-07-16 17:21:09,188][INFO] - 1.xls执行完成
+[2019-07-16 17:21:09,188][INFO] - =========脚本完成=========
+[2019-07-16 17:40:48,607][INFO] - =========脚本启动=========
+[2019-07-16 17:40:48,607][INFO] - 开始执行脚本：1.xls
+[2019-07-16 17:40:48,926][INFO] - 启动chrome浏览器
+[2019-07-16 17:40:51,995][INFO] - 1步开始
+[2019-07-16 17:40:52,669][INFO] - 2步开始
+[2019-07-16 17:41:23,120][ERROR] - 元素(ID)'password1'找不到
+[2019-07-16 17:41:23,241][ERROR] - 第2步发生异常
+[2019-07-16 17:41:23,242][ERROR] - 
+java.lang.NullPointerException
+	at common.ElementAction.action(ElementAction.java:169)
+	at Start.main(Start.java:8)
+[2019-07-16 17:41:23,245][INFO] - 执行报错，关闭浏览器
+[2019-07-16 17:41:24,078][INFO] - 1.xls执行完成
+[2019-07-16 17:41:24,089][INFO] - 启动chrome浏览器
+[2019-07-16 17:41:26,303][INFO] - 1步开始
+[2019-07-16 17:41:26,991][INFO] - 2步开始
+[2019-07-16 17:41:27,641][INFO] - 3步开始
+[2019-07-16 17:41:29,039][INFO] - 4步开始
+[2019-07-16 17:41:33,222][INFO] - 5步开始
+[2019-07-16 17:41:33,970][INFO] - 6步开始
+[2019-07-16 17:41:35,909][INFO] - 7步开始
+[2019-07-16 17:41:36,529][INFO] - 8步开始
+[2019-07-16 17:41:37,300][INFO] - 9步开始
+[2019-07-16 17:41:37,958][INFO] - 94步开始
+[2019-07-16 17:41:38,714][INFO] - 95步开始
+[2019-07-16 17:41:39,355][INFO] - 96步开始
+[2019-07-16 17:41:39,942][INFO] - 97步开始
+[2019-07-16 17:41:40,515][INFO] - 98步开始
+[2019-07-16 17:41:41,112][INFO] - 99步开始
+[2019-07-16 17:41:43,917][INFO] - 截图保存到:/idea/UIAutoTest/pic/snap_1.xls_step99_2019-07-16 17:41:41.png
+[2019-07-16 17:41:44,442][INFO] - 100步开始
+[2019-07-16 17:41:44,947][INFO] - sleep:500毫秒
+[2019-07-16 17:41:45,459][INFO] - 101步开始
+[2019-07-16 17:41:46,050][INFO] - end步开始
+[2019-07-16 17:41:46,051][INFO] - Sheet2执行完成
+[2019-07-16 17:41:46,278][INFO] - 表格:Sheet2完成，关闭浏览器
+[2019-07-16 17:41:46,345][INFO] - 1.xls执行完成
+[2019-07-16 17:41:46,346][INFO] - =========脚本完成=========
+[2019-07-16 17:46:32,936][INFO] - =========脚本启动=========
+[2019-07-16 17:46:32,936][INFO] - 开始执行脚本：1.xls
+[2019-07-16 17:46:33,166][INFO] - 启动chrome浏览器
+[2019-07-16 17:46:35,726][INFO] - 1步开始
+[2019-07-16 17:46:36,397][INFO] - 2步开始
+[2019-07-16 17:47:06,850][ERROR] - 元素(ID)'password1'找不到
+[2019-07-16 17:47:06,933][ERROR] - 第2步发生异常
+[2019-07-16 17:47:06,934][ERROR] - 
+java.lang.NullPointerException
+	at common.ElementAction.action(ElementAction.java:169)
+	at Start.main(Start.java:8)
+[2019-07-16 17:47:06,937][INFO] - 执行报错，关闭浏览器
+[2019-07-16 17:47:07,045][INFO] - 1.xls执行完成
+[2019-07-16 17:47:07,053][INFO] - 启动chrome浏览器
+[2019-07-16 17:47:09,477][INFO] - 1步开始
+[2019-07-16 17:47:10,306][INFO] - 2步开始
+[2019-07-16 17:47:10,961][INFO] - 3步开始
+[2019-07-16 17:47:23,033][INFO] - 4步开始
+[2019-07-16 17:47:35,134][INFO] - 5步开始
+[2019-07-16 17:47:48,616][INFO] - 6步开始
+[2019-07-16 17:48:00,987][INFO] - 7步开始
+[2019-07-16 17:48:01,568][INFO] - 8步开始
+[2019-07-16 17:48:31,980][ERROR] - 元素(XPATH)'//span[text()='新建画布']'找不到
+[2019-07-16 17:48:32,103][ERROR] - 第8步发生异常
+[2019-07-16 17:48:32,103][ERROR] - 
+java.lang.NullPointerException
+	at java.util.Objects.requireNonNull(Objects.java:203)
+	at org.openqa.selenium.interactions.PointerInput$Origin.fromElement(PointerInput.java:222)
+	at org.openqa.selenium.interactions.Actions.moveInTicks(Actions.java:416)
+	at org.openqa.selenium.interactions.Actions.click(Actions.java:322)
+	at common.ElementAction.action(ElementAction.java:174)
+	at Start.main(Start.java:8)
+[2019-07-16 17:48:32,103][INFO] - 执行报错，关闭浏览器
+[2019-07-16 17:48:32,118][ERROR] - No operations allowed after connection closed.
+java.sql.SQLNonTransientConnectionException: No operations allowed after connection closed.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:110)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:73)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:73)
+	at com.mysql.cj.jdbc.ConnectionImpl.createStatement(ConnectionImpl.java:1094)
+	at com.mysql.cj.jdbc.ConnectionImpl.createStatement(ConnectionImpl.java:1084)
+	at util.DataBaseSource.insertDetail(DataBaseSource.java:86)
+	at common.ElementAction.action(ElementAction.java:520)
+	at Start.main(Start.java:8)
+Caused by: com.mysql.cj.exceptions.ConnectionIsClosedException: No operations allowed after connection closed.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.NativeSession.checkClosed(NativeSession.java:1263)
+	at com.mysql.cj.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:575)
+	at com.mysql.cj.jdbc.ConnectionImpl.createStatement(ConnectionImpl.java)
+	... 4 more
+[2019-07-16 17:48:32,118][INFO] - 1.xls执行完成
+[2019-07-16 17:48:32,119][INFO] - =========脚本完成=========
+[2019-07-16 17:48:32,121][ERROR] - No operations allowed after connection closed.
+java.sql.SQLNonTransientConnectionException: No operations allowed after connection closed.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:110)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:73)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:73)
+	at com.mysql.cj.jdbc.ConnectionImpl.createStatement(ConnectionImpl.java:1094)
+	at com.mysql.cj.jdbc.ConnectionImpl.createStatement(ConnectionImpl.java:1084)
+	at util.DataBaseSource.update(DataBaseSource.java:71)
+	at common.ElementAction.action(ElementAction.java:528)
+	at Start.main(Start.java:8)
+Caused by: com.mysql.cj.exceptions.ConnectionIsClosedException: No operations allowed after connection closed.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.NativeSession.checkClosed(NativeSession.java:1263)
+	at com.mysql.cj.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:575)
+	at com.mysql.cj.jdbc.ConnectionImpl.createStatement(ConnectionImpl.java)
+	... 4 more
