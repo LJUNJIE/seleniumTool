@@ -1,8 +1,5 @@
 package common;
 
-import Bean.TestDetailReport;
-import Bean.TestReport;
-import org.testng.annotations.Test;
 import util.*;
 import com.relevantcodes.extentreports.ExtentReports;
 import org.openqa.selenium.*;
@@ -15,7 +12,6 @@ import org.slf4j.LoggerFactory;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-@Test
 public class ElementAction {
 
     private static WebDriver driver;
@@ -27,32 +23,17 @@ public class ElementAction {
 
         LoadProperties loadProperties = new LoadProperties();
         String uploadFile = loadProperties.loadProperties("uploadFile");
-        String useDataK = loadProperties.loadProperties("useDataK");
-
-        DataBaseSource dataBaseSource = new DataBaseSource();
 
         ExtenseReport extenseReport = new ExtenseReport();
-//        ExtentReports extent = extenseReport.createReport();
         ExtentReports extent = null;
         extent = extenseReport.createReport("testReportName");
 
-
         /*
-        pass:测试用例通过数量；fail:测试用例失败数量；Excel中的sheet即测试用例；
-        pass + fail = 一个Excel中sheet的数量;
-        beginTime,endTime:一个测试用例的开始结束时间,
         testName:用例名称，sheetName
         testComment:测试结果
-        succ:sheet的测试结果成功/失败
          */
-        int pass = 0;
-        int fail = 0;
-        String beginTime = null;
-        String endTime = null;
         String testName = null;
         String testComment = null;
-        String reportTableName = null;
-        boolean succ = true;
 
         int i;//sheet的第i行，从0开始
         String step = null;//步骤
@@ -75,22 +56,6 @@ public class ElementAction {
         OpenBrowser openBrowser = new OpenBrowser();
         SnapShot snapShot = new SnapShot();
 
-        //用于报表拖拽元素,dataS部分有注释
-        int countCol = 0;
-        int countRow = 0;
-        String col = "ch_" + Integer.toString(countCol);
-        String row = "rh_" + Integer.toString(countRow);
-        int add = 3;
-
-        //使用dataK写报告
-        if(useDataK.equals("true")){
-            //获取测试报告表名，生成表
-            reportTableName = dataBaseSource.getReportTableName();
-            dataBaseSource.createReportTable(reportTableName);
-
-            String lastReportTableName = dataBaseSource.getLastReportTableName();
-            dataBaseSource.updateReport(lastReportTableName,reportTableName);
-        }
         logger.info("=========脚本启动=========");
         //循环执行脚本
         for (int s = 0; s < exc.length; s++) {
@@ -101,7 +66,6 @@ public class ElementAction {
                 //循环执行脚本中的sheet
                 for (int k = 0; k < countSheet; k++) {
                 try {
-                    beginTime = df.format(new Date());
                     sheetName = loadExcUtil.getSheetName(exc[s],k);
                     //用例名称
                     testName = sheetName;
@@ -316,195 +280,6 @@ public class ElementAction {
                                 ((JavascriptExecutor) driver).executeScript(evalue);
                                 break;
 
-                            //以下是用于dataS的元素操作********************************************
-
-                            case "dragToCol"://拖拽元素到列，下一个列框id加1
-                                WebElement web1 = fe.findE(col, 1);
-                                new Actions(driver).dragAndDrop(we, web1).perform();
-                                countCol++;
-                                col = "ch_" + Integer.toString(countCol);
-                                break;
-
-                            case "dragToRow"://拖拽元素到行
-                                WebElement web2 = fe.findE(row, 1);
-                                new Actions(driver).dragAndDrop(we, web2).perform();
-                                countRow++;
-                                row = "rh_" + Integer.toString(countRow);
-                                break;
-
-                            case "dragToExp"://配置新表达式，拖到同一个框，新增一个表达式A+B后，下一个列框id加3
-                                countCol--;
-                                col = "ch_" + Integer.toString(countCol);
-                                WebElement web3 = fe.findE(col, 1);
-                                new Actions(driver).dragAndDrop(we, web3).perform();
-                                countCol = countCol + 3;
-                                col = "ch_" + Integer.toString(countCol);
-                                break;
-
-                            case "addToExp"://为表达式添加一个因子,每增加一个因子，下一个列框id加1
-                                int tmp = countCol;
-                                countCol = countCol - add;
-                                col = "ch_" + Integer.toString(countCol);
-                                WebElement web4 = fe.findE(col, 1);
-                                new Actions(driver).dragAndDrop(we, web4).perform();
-                                countCol = tmp + 1;
-                                add++;
-                                col = "ch_" + Integer.toString(countCol);
-                                break;
-
-                            case "dragToCon"://拖拽元素到固定条件
-                                WebElement web5 = fe.findE("conditionBaseGroup", 1);
-                                new Actions(driver).dragAndDrop(we, web5).perform();
-                                break;
-
-                            case "dragToSin"://拖拽元素到指标条件
-                                WebElement web6 = fe.findE("zbEditSingleCondBase", 1);
-                                new Actions(driver).dragAndDrop(we, web6).perform();
-                                break;
-
-                            //以下是用于dataL的元素操作*****************************************
-                            case "dragToColumn":
-                                WebElement web7 = fe.findE("column-Group", 1);
-                                new Actions(driver).dragAndDrop(we, web7).perform();
-                                break;
-
-                            //以下用于dataK的元素操作*******************************************
-                            case "dragChart"://拖拽图表，excel元素值填像素数量，等同于上面的dragDown
-                                new Actions(driver).dragAndDropBy(we, 0, Integer.valueOf(evalue)).build().perform();
-                                break;
-
-                            //拖拽元数据到系列
-                        /*选择数据表模式，自助分析实力模式，系列的id为collapseColumn，
-				        选择sql模式，excel文件，API模式，系列的id为collapseColumn1，
-				        理论上用xpath的contains,start-with方法可以都定位到，实际操作不行
-				        虽然页面只显示一个框，但是会把两种情况的代码都写出来，导致定位到的有两个元素，因此分两种操作
-                        */
-
-                            case "dragToSeriesByTable"://数据库表，自助分析实例模式
-                                WebElement web9 = fe.findE("//div[contains(@id,\"collapseColumn\")]/div/div[2]", 2);
-                                new Actions(driver).dragAndDrop(we, web9).perform();
-                                break;
-
-                            case "dragToSeriesSecByTable"://用于双轴图的次轴
-                                WebElement web10 = fe.findE("//*[@id=\"collapseColumnSec\"]/div/div[2]", 2);
-                                new Actions(driver).dragAndDrop(we, web10).perform();
-                                break;
-
-                            case "dragToSeries"://SQL模式，EXCEL模式，API模式
-                                WebElement web11 = fe.findE("//*[@id=\"collapseColumn1\"]/div/div[2]", 2);
-                                new Actions(driver).dragAndDrop(we, web11).perform();
-                                break;
-
-                            case "dragToSeriesSec"://用于双轴图的次轴
-                                WebElement web12 = fe.findE("//*[@id=\"collapseColumn2\"]/div/div[2]", 2);
-                                new Actions(driver).dragAndDrop(we, web12).perform();
-                                break;
-
-                            //拖拽元数据到分类
-                            /*选择数据表模式，自助分析实例模式下，分类的id为collapseRow，
-				            选择sql模式，excel文件，API模式，系列的id为collapseRow1，
-				            理论上用xpath的contains,start-with方法可以都定位，可实际操作不行，
-				            虽然页面只显示一个框，但是会把两种情况的代码都写出来，导致定位到的有两个元素，因此分两种操作
-				            */
-                            case "dragToVerbByTable"://数据库表，自助分析实例
-                                WebElement web13 = fe.findE("//*[contains(@id,\"collapseRow\")]/div/div[2]", 2);
-                                new Actions(driver).dragAndDrop(we, web13).perform();
-                                break;
-
-                            case "dragToVerb"://SQL模式，EXCEL模式，API模式
-                                WebElement web14 = fe.findE("//*[contains(@id,\"collapseRow1\")]/div/div[2]", 2);
-                                new Actions(driver).dragAndDrop(we, web14).perform();
-                                break;
-
-                            case "dragToFilter"://拖拽元数据到条件字段
-                                WebElement web15 = fe.findE("//*[@id=\"collapseFilter\"]/div/div[2]", 2);
-                                new Actions(driver).dragAndDrop(we, web15).perform();
-                                break;
-
-                            case "dragToTime"://拖拽元数据到时间过滤字段
-                                WebElement web16 = fe.findE("//*[@id=\"collapseTime\"]/div/div[4]", 2);
-                                new Actions(driver).dragAndDrop(we, web16).perform();
-                                break;
-
-                            case "dragToOrder"://拖拽元数据到排序字段
-                                WebElement web17 = fe.findE("//*[@id=\"collapseOrder\"]/div/div[2]", 2);
-                                new Actions(driver).dragAndDrop(we, web17).perform();
-                                break;
-
-                            case "deleteChart"://删除图表
-                                keyBoard.pressShiftD(driver);
-                                break;
-
-                            case "collapseColumnLine"://地图飞线系列
-                                WebElement web18 = fe.findE("//*[@id=\"collapseColumn-line\"]/div/div[2]", 2);
-                                new Actions(driver).dragAndDrop(we, web18).perform();
-                                break;
-
-                            case "collapseRowLineStart"://地图飞线起始字段
-                                WebElement web19 = fe.findE("collapseRow-start", 1);
-                                new Actions(driver).dragAndDrop(we, web19).perform();
-                                break;
-
-                            case "collapseRowLineEnd"://地图飞线结束字段
-                                WebElement web20 = fe.findE("collapseRow-end", 1);
-                                new Actions(driver).dragAndDrop(we, web20).perform();
-                                break;
-
-                            case "collapseColumnScatter"://地图散点系列，数据库表模式，自助分析结果
-                                WebElement web21 = fe.findE("collapseColumn-scatter", 1);
-                                new Actions(driver).dragAndDrop(we, web21).perform();
-                                break;
-
-                            case "collapseRowScatter"://地图散点分类，数据库表模式，自助分析结果
-                                WebElement web22 = fe.findE("collapseRow-scatter", 1);
-                                new Actions(driver).dragAndDrop(we, web22).perform();
-                                break;
-
-                            case "collapseColumnScatter2"://地图散点系列，EXCEL模式下，API模式，SQL模式
-                                WebElement web23 = fe.findE("collapseColumn1-scatter", 1);
-                                new Actions(driver).dragAndDrop(we, web23).perform();
-                                break;
-
-                            case "collapseRowScatter2"://地图散点分类，EXCEL模式下，API模式，SQL模式
-                                WebElement web24 = fe.findE("//*[@id=\"collapseColumn1-scatter\"]/../following-sibling::div/div[2]", 2);
-                                new Actions(driver).dragAndDrop(we, web24).perform();
-                                break;
-
-                            case "collapseColumnBar"://3D地图柱状层系列
-                                WebElement web25 = fe.findE("collapseColumn-bar", 1);
-                                new Actions(driver).dragAndDrop(we, web25).perform();
-                                break;
-
-                            case "collapseRowBar"://3D地图柱状层分类
-                                WebElement web26 = fe.findE("collapseRow2-bar", 1);
-                                new Actions(driver).dragAndDrop(we, web26).perform();
-                                break;
-
-                            //以上用于dataK的元素操作*******************************************
-
-                            //以下用于dataR的元素操作*******************************************
-
-                            case "dropDataRColumn"://拖拽元素到系列
-                                WebElement web27 = fe.findE("//*[@id=\"collapseColumn\"]/div/div[2]", 2);
-                                new Actions(driver).dragAndDrop(we, web27).perform();
-                                break;
-
-                            case "dropDataROrder"://拖拽元素到排序
-                                WebElement web28 = fe.findE("//*[@id=\"collapseOrder\"]/div/div[2]", 2);
-                                new Actions(driver).dragAndDrop(we, web28).perform();
-                                break;
-
-                            case "dropDataRCondition"://拖拽元素到条件
-                                WebElement web29 = fe.findE("//*[@id=\"main-canvas\"]/div[1]/div[4]/div/div[3]/div", 2);
-                                new Actions(driver).dragAndDrop(we, web29).perform();
-                                break;
-
-                            case "drawLine"://画斜线，只做了向下画线长度60个像素
-                                new Actions(driver).dragAndDropBy(we, 0, 60).build().perform();
-                                mouse.click();
-                                break;
-
-                            //以上用于dataR的元素操作*******************************************
                         }
 
                         i++;//读取下一步
@@ -520,51 +295,26 @@ public class ElementAction {
 
                     driver.quit();
                     logger.info("表格:"+ sheetName +"完成，关闭浏览器");
-                    //成功次数+1
-                    pass++;
-                    endTime = df.format(new Date());
                     testComment = "PASS";
-                    //写入该sheet的测试结果
-                    if(useDataK.equals("true")){
-                        TestDetailReport testDetailReport = new TestDetailReport(testName,beginTime,endTime,testComment);
-                        dataBaseSource.insertDetail(testDetailReport,reportTableName);
-                    }else {
-                        //测试报告中写入sheet的测试结果
-                        extenseReport.startTestPass(extent,testName,testComment);
-                    }
+                    //测试报告中写入sheet的测试结果
+                    extenseReport.startTestPass(extent,testName,testComment);
                 }catch (Exception e) {
                         logger.error("第" + step + "步发生异常");
                         logger.error(e.getMessage(),e);
                         driver.quit();
                         logger.info("执行报错，关闭浏览器");
-                        //失败次数+1
-                        fail++;
-                        endTime = df.format(new Date());
 
                         testComment = "第 " + step + " 步：元素 ["+ename.replaceAll("\'","\\\\'")+"] 出现异常";
-                        //写入该sheet的测试结果
-                        if(useDataK.equals("true")) {
-                            TestDetailReport testDetailReport = new TestDetailReport(testName, beginTime, endTime, testComment);
-                            dataBaseSource.insertDetail(testDetailReport, reportTableName);
-                        }else {
-                            //测试报告中写入sheet的测试结果
-                            extenseReport.startTestFail(extent,testName,testComment);
-                        }
+                    //测试报告中写入sheet的测试结果
+                    extenseReport.startTestFail(extent,testName,testComment);
                     }
                 }
                 logger.info(exc[s] + "执行完成");
             }
         logger.info("=========脚本完成=========");
 
-        //更新统计测试结果数量
-        //更新模板中sql的表名
-        if(useDataK.equals("true")){
-            TestReport testReport = new TestReport(pass, fail);
-            dataBaseSource.update(testReport);
-        }else {
-            //输出最终的html格式测试报告
-            extenseReport.extentFlush(extent);
-        }
+        //输出最终的html格式测试报告
+        extenseReport.extentFlush(extent);
 
         logger.info("输出报告完成");
         System.exit(0);

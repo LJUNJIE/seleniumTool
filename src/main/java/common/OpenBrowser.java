@@ -51,10 +51,6 @@ public class OpenBrowser {
                     break;
                 case 3:
                     if (os.contains("mac")) {
-
-                        //driver = new RemoteWebDriver(new URL("http://127.0.0.1:4444/wd/hub/"),DesiredCapabilities.chrome());
-
-                        //mac
                         System.setProperty("webdriver.chrome.driver", "lib/chromedriver");
                         logger.info("启动chrome浏览器");
                         ChromeOptions chromeOptions = new ChromeOptions();
@@ -63,9 +59,9 @@ public class OpenBrowser {
                         //disable-infobars，非静默模式下，关闭浏览器提示"窗口被自动化软件运行"
                         //--window-size=1366,768
                         if(isHeadless.equals("true")){
-                            chromeOptions.addArguments("--kiosk","headless");
+                            chromeOptions.addArguments("--kiosk","headless","--disable-gpu");
                         }else {
-                            chromeOptions.addArguments("disable-infobars", "--kiosk","--window-size=1366,768");
+                            chromeOptions.addArguments("disable-infobars", "--kiosk");
                         }
                         driver = new ChromeDriver(chromeOptions);
                         break;
@@ -77,27 +73,17 @@ public class OpenBrowser {
                         }
                         logger.info("启动chrome浏览器");
                         System.setProperty("webdriver.chrome.driver", "lib/chromedriver.exe");
-//                        ChromeDriverService service = new ChromeDriverService.Builder().usingDriverExecutable(new File("lib/chromedriver.exe")).usingAnyFreePort().build();
-//                        service.start();
-//                        driver = new RemoteWebDriver(service.getUrl(), DesiredCapabilities.chrome());
                         driver = new ChromeDriver(chromeOptions);
                         break;
                     }else{
-                        //Linux
+                        //linux
                         ChromeOptions chromeOptions = new ChromeOptions();
-                        chromeOptions.addArguments("disable-infobars","--no-sandbox","--start-maximized","headless","--single-process","--disable-dev-shm-usage","--disable-gpu");//关闭Chrome 正受到自动测试软件的控制提示
+                        chromeOptions.addArguments("disable-infobars","--no-sandbox","--start-maximized","headless","--single-process","--disable-dev-shm-usage","--disable-gpu");
                         logger.info("启动chrome浏览器");
                         System.setProperty("webdriver.chrome.driver", "lib/chromedriverlinux");
                         driver = new ChromeDriver(chromeOptions);
                         break;
                     }
-                case 4:
-                        DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
-                        desiredCapabilities.setBrowserName("chrome");
-                        desiredCapabilities.chrome();
-                        driver = new RemoteWebDriver(new URL("http://172.16.0.148:4444/wd/hub"),desiredCapabilities);
-                        driver.manage().window().maximize();
-                        break;
             }
         }catch (Exception e){
             logger.error(e.getMessage());

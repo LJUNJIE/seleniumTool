@@ -15,26 +15,15 @@ public class Start {
     private static Document document;
 
     public static void main(String[] args) throws Exception {
-//
-//        ElementAction elementAction = new ElementAction();
-//        elementAction.run();
 
-        File file = new File("cfg/RemoteServerInfo.xml");
-        document = RemoteServerInit.loadXmlFile(file);
+        ElementAction elementAction = new ElementAction();
+        elementAction.run();
 
-        List<Element> list = RemoteServerInit.getAllInfo(document);
-        RemoteServerInit.launch(list);
-
-//        Set<Map.Entry<WebDriver,Thread>> r = threadMap.entrySet();
-//        Iterator<Map.Entry<WebDriver,Thread>> it = r.iterator();
+//        File file = new File("cfg/RemoteServerInfo.xml");
+//        document = RemoteServerInit.loadXmlFile(file);
 //
-//        while (it.hasNext()){
-//            Map.Entry<WebDriver,Thread> entry = it.next();
-//            RemoteThreadMonitor remoteThreadMonitor = new RemoteThreadMonitor(entry.getKey(),entry.getValue());
-//            Thread t = new Thread(remoteThreadMonitor);
-//            t.start();
-//
-//        }
+//        List<Element> list = RemoteServerInit.getAllInfo(document);
+//        RemoteServerInit.launch(list);
 
     }
 }

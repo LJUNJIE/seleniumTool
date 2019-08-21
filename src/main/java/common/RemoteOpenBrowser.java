@@ -19,7 +19,6 @@ public class RemoteOpenBrowser {
         try {
 //            DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
 //            desiredCapabilities.setBrowserName("chrome");
-//
 //            desiredCapabilities.chrome();
 //            driver = new RemoteWebDriver(new URL(remoteServer),desiredCapabilities);
 
@@ -33,11 +32,7 @@ public class RemoteOpenBrowser {
         }catch (Exception e){
             logger.error("连接远程机器失败:"+e.getMessage(),e);
         }
-
         return driver;
     }
 
-    public static WebDriver getDriver(){
-        return driver;
-    }
 }

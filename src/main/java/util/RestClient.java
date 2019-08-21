@@ -83,7 +83,6 @@ public class RestClient {
 
         BasicClientCookie cookie = new BasicClientCookie("JSESSIONID", "0719CFDDBD102373F9D23CBFBC2B83BE");
         cookie.setVersion(0);
-//        cookie.setDomain("192.168.0.140:8888");
         cookie.setPath("/");
         cookieStore.addCookie(cookie);
 
