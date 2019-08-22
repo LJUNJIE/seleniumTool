@@ -3,7 +3,9 @@
 <root>
 
     <!--远程机器，status属性来控制是否运行 on为打开，off为关闭-->
-    <!--远程机器操作系统 os = mac,win-->
+    <!--远程机器操作系统 os = mac,win ，不起作用-->
+    <!--name，测试用例名称，报告名称-->
+    <!--远程地址填写http://ip:port/wd/hub-->
     <remote-server id="1" name = "测试111" os="mac" status="on">http://172.16.0.75:4444/wd/hub</remote-server>
     <remote-server id="2" name = "测试222" os="mac" status="on">http://172.16.0.75:4444/wd/hub</remote-server>
 

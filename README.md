@@ -80,3 +80,16 @@ alertDismiss | 浏览器弹窗，点击取消；
 scrollToTop | 移动滚动条直到该元素与当前窗口的“顶部”对齐；
 scrollToBottom | 移动滚动条直到该元素与当前窗口的“底部”对齐；
 executeJs | 执行不带参数的 js 代码，E列填 js；
+
+# 远程启动
+- 远程启动只支持Chrome；
+1. 客户端运行jar包：
+- Windows：
+`java -Dwebdriver.chrome.driver="D:\chromedriver.exe" -jar D:\selenium-server-standalone-3.141.59.jar`
+- Mac：
+`java -Dwebdriver.chrome.driver="/work/chromedriver" -jar /work/selenium-server-standalone-3.141.59.jar`
+- 默认端口4444，-port xxxx 修改端口；
+- 启动后，http://localhost:4444/wd/hub，点击Create Session，创建浏览器会话，有弹出浏览器窗口，即启动成功；
+2. 修改配置项useRemote=true；
+3. 配置RemoteServerInfo.xml，远程地址填写远程地址填写http://ip:port/wd/hub；
+4. 服务端启动程序即可；
