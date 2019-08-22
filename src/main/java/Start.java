@@ -1,14 +1,11 @@
 import common.ElementAction;
 import org.dom4j.Document;
 import org.dom4j.Element;
-import org.openqa.selenium.WebDriver;
+import util.LoadProperties;
 import util.RemoteServerInit;
 
 import java.io.File;
-import java.util.Iterator;
 import java.util.List;
-import java.util.Map;
-import java.util.Set;
 
 public class Start {
 
@@ -16,14 +13,19 @@ public class Start {
 
     public static void main(String[] args) throws Exception {
 
-        ElementAction elementAction = new ElementAction();
-        elementAction.run();
+        LoadProperties loadProperties = new LoadProperties();
+        String useRemote = loadProperties.loadProperties("useRemote");
 
-//        File file = new File("cfg/RemoteServerInfo.xml");
-//        document = RemoteServerInit.loadXmlFile(file);
-//
-//        List<Element> list = RemoteServerInit.getAllInfo(document);
-//        RemoteServerInit.launch(list);
+        if(useRemote.equals("false")){
+            ElementAction elementAction = new ElementAction();
+            elementAction.run();
+        }else {
+            File file = new File("cfg/RemoteServerInfo.xml");
+            document = RemoteServerInit.loadXmlFile(file);
+
+            List<Element> list = RemoteServerInit.getAllInfo(document);
+            RemoteServerInit.launch(list);
+        }
 
     }
 }
