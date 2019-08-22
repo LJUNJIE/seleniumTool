@@ -1,3 +1,14 @@
+# 简介
+这是一个WebUI自动化测试框架，基于java + maven + selenium + poi + extentreports开发，使用关键字驱动，将元素定位及操作写进Excel，实现脚本与代码分离，支持本地与远程(多线程)启动，自动生成html报告。
+
+[Chrome驱动下载地址](http://chromedriver.storage.googleapis.com/index.html)
+
+[远程启动客户端jar包](http://selenium-release.storage.googleapis.com/index.html)
+
+[selenium wiki](https://github.com/SeleniumHQ/selenium/wiki)
+
+[查看API](http://www.webdriver.org/doc/patatiumwebui/api/)
+
 # 目录结构
 - cfg/config.properties：启动配置项；
 - cfg/RemoteServerInfo：远程启动配置项；
