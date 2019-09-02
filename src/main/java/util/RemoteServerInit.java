@@ -80,7 +80,8 @@ public class RemoteServerInit {
                 //获取xml中远程服务器地址
                 String remoteServer = e.getText();
                 String xmlTestName = e.attributeValue("name");
-                RemoteElementAction remoteElementAction = new RemoteElementAction(remoteServer,countDownLatch,xmlTestName);
+                String script = e.attributeValue("script");
+                RemoteElementAction remoteElementAction = new RemoteElementAction(remoteServer,countDownLatch,xmlTestName,script);
                 executor.submit(remoteElementAction);
             }
 

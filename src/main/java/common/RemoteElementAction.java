@@ -21,11 +21,14 @@ public class RemoteElementAction implements Runnable{
     private String remoteServer;
     //xml文件中的name
     private String xmlTestName;
+    //xml文件中的script
+    private  String script;
 
-    public RemoteElementAction(String remoteServer,CountDownLatch countDownLatch, String xmlTestName) {
+    public RemoteElementAction(String remoteServer,CountDownLatch countDownLatch, String xmlTestName, String script) {
         this.remoteServer = remoteServer;
         this.countDownLatch = countDownLatch;
         this.xmlTestName = xmlTestName;
+        this.script = script;
     }
 
     private WebDriver driver;
@@ -70,22 +73,22 @@ public class RemoteElementAction implements Runnable{
 
         logger.info("=========脚本启动=========");
         //循环执行脚本
-        for (int s = 0; s < exc.length; s++) {
+//        for (int s = 0; s < exc.length; s++) {
 
-            logger.info("开始执行脚本：" + exc[s]);
+            logger.info("开始执行脚本：" + script);
 
-            int countSheet = loadExcUtil.countSheet(exc[s]);
+            int countSheet = loadExcUtil.countSheet(script);
             //循环执行脚本中的sheet
             for (int k = 0; k < countSheet; k++) {
                 try {
-                    sheetName = loadExcUtil.getSheetName(exc[s],k);
+                    sheetName = loadExcUtil.getSheetName(script,k);
                     //用例名称
                     testName = sheetName;
                     driver = remoteOpenBrowser.openBrowser(remoteServer);
                     //打开地址
                     WebDriverWait wait = new WebDriverWait(driver, 30);//新建等待对象
                     FindElement fe = new FindElement(driver, wait);
-                    String url = loadExcUtil.readValue(1, 1, exc[s], k);
+                    String url = loadExcUtil.readValue(1, 1, script, k);
                     driver.get(url);
 
                     //鼠标事件初始//////////////////////////////////////////////////
@@ -96,12 +99,12 @@ public class RemoteElementAction implements Runnable{
 
                     while (true) {
                         //读取每行的值
-                        step = loadExcUtil.readValue(0, i, exc[s], k);
-                        type = loadExcUtil.readValue(1, i, exc[s], k);
-                        ename = loadExcUtil.readValue(2, i, exc[s], k);
-                        action = loadExcUtil.readValue(3, i, exc[s], k);
-                        evalue = loadExcUtil.readValue(4, i, exc[s], k);
-                        snap = loadExcUtil.readValue(5, i, exc[s], k).toLowerCase();
+                        step = loadExcUtil.readValue(0, i, script, k);
+                        type = loadExcUtil.readValue(1, i, script, k);
+                        ename = loadExcUtil.readValue(2, i, script, k);
+                        action = loadExcUtil.readValue(3, i, script, k);
+                        evalue = loadExcUtil.readValue(4, i, script, k);
+                        snap = loadExcUtil.readValue(5, i, script, k).toLowerCase();
                         we = null;//清除上次循环的元素
                         Thread.sleep(500);
                         logger.info(xmlTestName+" : "+step + "步开始");
@@ -298,7 +301,7 @@ public class RemoteElementAction implements Runnable{
                         if ("y".equals(snap)) {
                             String date = df.format(new Date());
                             Thread.sleep(2000);//等待页面加载完再截图
-                            snapFile = xmlTestName+" : "+"snap_" + exc[s] + "_step" + step + "_" + date + ".png";
+                            snapFile = xmlTestName+" : "+"snap_" + script + "_step" + step + "_" + date + ".png";
                             snapShot.snapShot((TakesScreenshot) driver, snapFile);
                         }
                     }
@@ -319,8 +322,8 @@ public class RemoteElementAction implements Runnable{
                         extenseReport.startTestFail(extent,testName,testComment);
                 }
             }
-            logger.info(xmlTestName+" : "+exc[s] + "执行完成");
-        }
+            logger.info(xmlTestName+" : "+script + "执行完成");
+//        }
         logger.info(xmlTestName+" : "+"=========脚本完成=========");
 
         //更新统计测试结果数量
@@ -331,7 +334,7 @@ public class RemoteElementAction implements Runnable{
 
         countDownLatch.countDown();
         long count=countDownLatch.getCount();
-        System.out.println("当前任务数："+count);
+        logger.info("当前任务数："+count);
 //        System.exit(0);
     }
 

@@ -102,5 +102,5 @@ executeJs | 执行不带参数的 js 代码，E列填 js；
 - 默认端口4444，-port xxxx 修改端口；
 - 启动后，http://localhost:4444/wd/hub，点击Create Session，创建浏览器会话，有弹出浏览器窗口，即启动成功；
 2. 修改配置项useRemote=true；
-3. 配置RemoteServerInfo.xml，远程地址填写远程地址填写http://ip:port/wd/hub；
+3. 配置RemoteServerInfo.xml，远程地址填写http://ip:port/wd/hub；
 4. 服务端启动程序即可；
