@@ -113,7 +113,7 @@
 
     <build>
 
-        <finalName>UIAutoTest</finalName>
+        <finalName>seleniumTool</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
