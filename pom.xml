@@ -112,6 +112,7 @@
     </dependencies>
 
     <build>
+        <defaultGoal>compile</defaultGoal>
 
         <finalName>seleniumTool</finalName>
         <plugins>
